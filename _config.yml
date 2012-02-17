@@ -1,5 +1,1 @@
 auto: true
-paginate: 2
-
-css:
- - /stylesheets/application.css

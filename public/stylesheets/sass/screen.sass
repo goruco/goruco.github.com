@@ -1,0 +1,197 @@
+$primary-color: #ba262b
+
+@import "compass/css3"
+
+
+// --------- Splash Page ------------
+
+#goruco
+  background: transparent url(/images/goruco.png) 0 0 no-repeat
+  height: 91px
+  width: 84px
+  display: block
+  margin: 70px auto 30px auto
+  text-indent: -99999px
+
+#coming-soon
+  background: transparent url(/images/coming-soon.png) 0 0 no-repeat
+  width: 450px
+  height: 76px
+  display: block
+  text-indent: -99999px
+  margin: 0 auto
+
+#date
+  background: transparent url(/images/date.png) 0 0 no-repeat
+  width: 191px
+  height: 28px
+  display: block
+  text-indent: -99999px
+  margin: 0 auto
+
+// --------- Basic Rules
+img
+  margin-bottom: 30px
+  display: block
+
+
+
+body
+  background: #2b2121 url(/images/newyork-background.jpg) top center no-repeat
+  color: #232323
+  font-family: georgia
+p
+  font-size: 20px
+  line-height: 30px
+  margin-bottom: 30px
+
+p.stub
+  color: #777
+  margin-top: -10px
+
+hr
+  background: url(/images/chrome/divider.png) top center no-repeat
+  height: 20px
+  display: block
+  border: none
+  border-style: hidden
+  margin: 40px 0
+
+// ------------ Footer styles
+.footer
+  .colophon
+    background: url(/images/chrome/moc-symbol.png) top center no-repeat
+    height: 80px
+    margin: 40px 0
+    p
+      font-size: 10px
+      text-align: center
+      padding-top: 20px
+      padding-left: 50px
+      font-weight: bold
+      span
+        padding-left: 60px
+        font-weight: normal
+
+// ------------ List styles
+ul
+  list-style: disc outside none
+  margin: 0 0 30px 30px
+  li
+    font-size: 20px
+    line-height: 30px
+  li.problem
+    background: url(/images/icons/x.png) 0 0 no-repeat
+    list-style: none
+ul#article_index
+  list-style: none
+  margin: 0
+  li
+    a
+      font-weight: bold
+
+
+// ----------- My Rules
+
+#ministry
+  background: url(/images/chrome/ministry.png) 0 0 no-repeat
+  height: 80px
+  width: 87px
+  text-indent: -999999px
+  float: left
+  clear: both
+  margin-bottom: 21px
+  margin-top: 21px
+
+#ministry:hover
+
+#secret_header
+  display: table
+  height: 35px
+  clear: both
+
+ul#nav
+  list-style: none outside none
+  margin: 0 0 21px 0
+#nav li
+  text-align: right
+  margin-bottom: 0
+  a
+    font-weight: bold
+    display: block
+    color: #555555
+    text-decoration: none
+    padding: 7px
+    @include border-radius(4px)
+  a:hover
+    color: #db1750
+    background-color: #DBDBDB
+  .active
+    background-color: #DBDBDB
+    color: #232323
+
+
+// ----------- Text
+h1
+  font-size: 50px
+  line-height: 60px
+
+h1, h2, h3, h4, h5
+  font-weight: bold
+
+h2
+  font-size: 24px
+  line-height: 28px
+
+h3
+  font-size: 22px
+  line-height: 21px
+
+
+h4
+  font-size: 16px
+  margin-bottom: 7px
+  line-height: 21px
+
+// ----------- Post Styles
+
+// ------------ Link styles
+a
+  color: $primary-color
+  text-decoration: none
+  +transition-property(color)
+  +transition-duration(1s)
+  +transition-timing-function(ease-out)
+a:visited
+  color: #982024
+a:hover
+  color: #db1750
+  text-decoration: underline
+a:active
+  color: #801736
+
+// ------------ Blog Posts
+
+.post
+  margin-bottom: 21px
+.manycols
+  clear: left
+
+// ----------- The box
+.box
+  background: #dbdbdb
+  @include border-radius(4px)
+  p
+    padding: 14px 21px
+a.linkbox
+  display: block
+  padding: 14px 47px
+  background: #dbdbdb url(/images/chrome/out.png) 14px 13px no-repeat
+  @include border-radius(4px)
+  margin-bottom: 21px
+  text-decoration: none
+a.linkbox:hover
+  background: #db1750 url(/images/chrome/out.png) 14px 13px no-repeat
+  color: #232323
+
+

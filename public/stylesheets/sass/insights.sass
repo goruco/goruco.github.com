@@ -1,0 +1,75 @@
+@import "compass/css3/border-radius"
+
+$primary-color: #ba262b
+
+blockquote
+  background-image: url(/images/chrome/quote.png)
+  background-position: 10px 35px
+  > *
+    background: #fff
+blockquote, .insight
+  background-repeat: no-repeat
+  border: none
+  padding: 20px 0px 20px 0px
+  margin-bottom: 30px
+  img
+    margin: 0px
+  p
+    font-size: 20px
+    line-height: 30px
+    padding-bottom: 20px
+  > *
+    background: #fff
+    margin: 0 0 0 80px
+    padding-left: 25px
+    padding-right: 25px
+    padding-bottom: 20px
+    color: #777777
+  *:first-child
+    @include border-top-radius(5px)
+    padding-top: 25px
+  *:last-child
+    @include border-bottom-radius(5px)
+    padding-bottom: 25px
+
+.problem
+  background-image: url(/images/chrome/problem.png)
+  background-position: 21px 38px
+  > *
+    background: $primary-color
+    color: #fff
+
+.solution
+  background-image: url(/images/chrome/solution.png)
+  background-position: 18px 35px
+  > *
+    background: #00a651
+    color: #fff
+
+.tool
+  background-image: url(/images/chrome/tool.png)
+  background-position: 15px 35px
+  > *
+    background: #0072bc
+    color: #fff
+
+.link
+  background-image: url(/images/chrome/link.png)
+  background-position: 15px 33px
+  > *
+    background: #333
+    color: #fff
+
+.idea
+  background-image: url(/images/chrome/idea.png)
+  background-position: 28px 35px
+  > *
+    background: #c7b299
+    color: #232323
+
+.source
+  background-image: url(/images/chrome/source.png)
+  background-position: 18px 35px
+  > *
+    background: #605ca8
+    color: #fff
