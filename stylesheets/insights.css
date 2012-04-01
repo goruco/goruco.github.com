@@ -1,31 +1,31 @@
-/* line 5, sass/insights.sass */
+/* line 5, ../sass/insights.sass */
 blockquote {
   background-image: url(/images/chrome/quote.png);
   background-position: 10px 35px;
 }
-/* line 8, sass/insights.sass */
+/* line 8, ../sass/insights.sass */
 blockquote > * {
   background: white;
 }
 
-/* line 10, sass/insights.sass */
+/* line 10, ../sass/insights.sass */
 blockquote, .insight {
   background-repeat: no-repeat;
   border: none;
   padding: 20px 0px 20px 0px;
   margin-bottom: 30px;
 }
-/* line 15, sass/insights.sass */
+/* line 15, ../sass/insights.sass */
 blockquote img, .insight img {
   margin: 0px;
 }
-/* line 17, sass/insights.sass */
+/* line 17, ../sass/insights.sass */
 blockquote p, .insight p {
   font-size: 20px;
   line-height: 30px;
   padding-bottom: 20px;
 }
-/* line 21, sass/insights.sass */
+/* line 21, ../sass/insights.sass */
 blockquote > *, .insight > * {
   background: white;
   margin: 0 0 0 80px;
@@ -34,100 +34,96 @@ blockquote > *, .insight > * {
   padding-bottom: 20px;
   color: #777777;
 }
-/* line 28, sass/insights.sass */
+/* line 28, ../sass/insights.sass */
 blockquote *:first-child, .insight *:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
-  -o-border-top-left-radius: 5px;
   -ms-border-top-left-radius: 5px;
-  -khtml-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
-  -o-border-top-right-radius: 5px;
   -ms-border-top-right-radius: 5px;
-  -khtml-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
   padding-top: 25px;
 }
-/* line 31, sass/insights.sass */
+/* line 31, ../sass/insights.sass */
 blockquote *:last-child, .insight *:last-child {
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
-  -o-border-bottom-left-radius: 5px;
   -ms-border-bottom-left-radius: 5px;
-  -khtml-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
   -webkit-border-bottom-right-radius: 5px;
-  -o-border-bottom-right-radius: 5px;
   -ms-border-bottom-right-radius: 5px;
-  -khtml-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-bottom: 25px;
 }
 
-/* line 35, sass/insights.sass */
+/* line 35, ../sass/insights.sass */
 .problem {
   background-image: url(/images/chrome/problem.png);
   background-position: 21px 38px;
 }
-/* line 38, sass/insights.sass */
+/* line 38, ../sass/insights.sass */
 .problem > * {
   background: #ba262b;
   color: white;
 }
 
-/* line 42, sass/insights.sass */
+/* line 42, ../sass/insights.sass */
 .solution {
   background-image: url(/images/chrome/solution.png);
   background-position: 18px 35px;
 }
-/* line 45, sass/insights.sass */
+/* line 45, ../sass/insights.sass */
 .solution > * {
   background: #00a651;
   color: white;
 }
 
-/* line 49, sass/insights.sass */
+/* line 49, ../sass/insights.sass */
 .tool {
   background-image: url(/images/chrome/tool.png);
   background-position: 15px 35px;
 }
-/* line 52, sass/insights.sass */
+/* line 52, ../sass/insights.sass */
 .tool > * {
   background: #0072bc;
   color: white;
 }
 
-/* line 56, sass/insights.sass */
+/* line 56, ../sass/insights.sass */
 .link {
   background-image: url(/images/chrome/link.png);
   background-position: 15px 33px;
 }
-/* line 59, sass/insights.sass */
+/* line 59, ../sass/insights.sass */
 .link > * {
   background: #333333;
   color: white;
 }
 
-/* line 63, sass/insights.sass */
+/* line 63, ../sass/insights.sass */
 .idea {
   background-image: url(/images/chrome/idea.png);
   background-position: 28px 35px;
 }
-/* line 66, sass/insights.sass */
+/* line 66, ../sass/insights.sass */
 .idea > * {
   background: #c7b299;
   color: #232323;
 }
 
-/* line 70, sass/insights.sass */
+/* line 70, ../sass/insights.sass */
 .source {
   background-image: url(/images/chrome/source.png);
   background-position: 18px 35px;
 }
-/* line 73, sass/insights.sass */
+/* line 73, ../sass/insights.sass */
 .source > * {
   background: #605ca8;
   color: white;

@@ -1,0 +1,128 @@
+$primary-color: #ba262b
+
+@import "compass/css3"
+
+
+// --------- Splash Page ------------
+
+#goruco
+  background: transparent url(/images/icons/goruco.png) 0 0 no-repeat
+  height: 47px
+  width: 44px
+  display: block
+  float: right
+  text-indent: -99999px
+  clear: both
+  margin: 40px 10px 40px 0
+
+.main
+  margin-top: 110px
+  border-left: 2px solid #c93925
+  margin-left: 38px
+  padding-left: 20px
+
+a, a:visited
+  color: #c93925
+a:hover
+  text-decoration: none
+
+body
+  color: #232323
+  font-family: georgia
+  font-size: 16px
+  line-height: 20px
+
+img
+  margin-bottom: 20px
+
+figure
+  img
+    margin: 0
+  figcaption
+    font-size: 12px
+    color: #545454
+    line-height: 15px
+    margin-bottom: 20px
+
+// --------- Fonts------------
+h1, h2, h3, h4, h5
+  font-family: "proxima-nova",sans-serif
+h1
+  font-weight: bold
+
+p
+  margin-bottom: 30px
+
+.post-details
+  color: #818181
+  font-size: 12px
+
+// --------- Lists------------
+
+ul#nav
+  list-style: none
+  clear: both
+  li
+    margin-left: 0
+    text-align: right
+    margin-bottom: 0
+    a, a:visited
+      color: #232323
+      padding: 10px 20px 10px 10px
+      display: block
+      text-decoration: none
+    a.active, a:hover
+      background: #2c2b25 url(/images/icons/wedge.png) right center no-repeat
+      color: #fff
+
+
+ul.org-links
+  list-style: none
+  a
+    padding-left: 25px
+    line-height: 30px
+  a.link
+    background: url(/images/icons/link.png) left center no-repeat
+  a.twitter
+    background: url(/images/icons/twitter.png) left center no-repeat
+  a.git
+    background: url(/images/icons/git.png) left center no-repeat
+  li
+    margin: 0
+
+ul
+  list-style: disc
+  li
+    margin-left: 30px
+
+
+.organizers
+  margin-bottom: 40px
+
+.video-holder
+  height: 350px
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+  .main
+    margin: 0
+    border: 0
+    padding: 0
+  ul#nav
+    li a
+      text-align: left
+  #goruco
+    float: left
+@media only screen and (max-width: 479px)
+  .main
+    margin: 0
+    border: 0
+    padding: 0
+  ul#nav
+    li a
+      text-align: left
+  #goruco
+    float: left
+
+.manycols
+  clear: left
+

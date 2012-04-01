@@ -1,0 +1,22 @@
+---
+layout: big
+title: GORUCO
+meta: The Premier Ruby Conference in New York City
+author: Steve Berry
+---
+
+<script type="text/javascript">
+ document.getElementById("2011").setAttribute("class","active");
+</script>
+
+<h1>GORUCO 2011</h1>
+
+<img src="/images/2011/hero.jpg" alt="" class="scale-with-grid"/>
+
+<p>Below are all the videos from GORUCO 2011.</p>
+
+<ul>
+  {% for post in site.categories.2011 %}
+  <li><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></li>
+  {% endfor %}
+  </ul>
