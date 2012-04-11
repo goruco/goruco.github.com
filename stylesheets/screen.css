@@ -98,88 +98,114 @@ ul#nav li a.active, ul#nav li a:hover {
   color: white;
 }
 
-/* line 79, ../sass/screen.sass */
+/* line 78, ../sass/screen.sass */
+a.nav-details {
+  color: #818181;
+  font-size: 12px;
+  text-align: right;
+  clear: both;
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* line 86, ../sass/screen.sass */
+a.nav-details:hover {
+  text-decoration: underline;
+}
+
+/* line 90, ../sass/screen.sass */
 ul.org-links {
   list-style: none;
 }
-/* line 81, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 ul.org-links a {
   padding-left: 25px;
   line-height: 30px;
 }
-/* line 84, ../sass/screen.sass */
+/* line 95, ../sass/screen.sass */
 ul.org-links a.link {
   background: url(/images/icons/link.png) left center no-repeat;
 }
-/* line 86, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 ul.org-links a.twitter {
   background: url(/images/icons/twitter.png) left center no-repeat;
 }
-/* line 88, ../sass/screen.sass */
+/* line 99, ../sass/screen.sass */
 ul.org-links a.git {
   background: url(/images/icons/git.png) left center no-repeat;
 }
-/* line 90, ../sass/screen.sass */
+/* line 101, ../sass/screen.sass */
 ul.org-links li {
   margin: 0;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
 ul {
   list-style: disc;
 }
-/* line 95, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 ul li {
   margin-left: 30px;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .organizers {
   margin-bottom: 40px;
 }
 
-/* line 102, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .video-holder {
   height: 350px;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 106, ../sass/screen.sass */
+  /* line 117, ../sass/screen.sass */
   .main {
     margin: 0;
     border: 0;
     padding: 0;
   }
 
-  /* line 111, ../sass/screen.sass */
+  /* line 122, ../sass/screen.sass */
   ul#nav li a {
     text-align: left;
   }
 
-  /* line 113, ../sass/screen.sass */
+  /* line 124, ../sass/screen.sass */
   #goruco {
     float: left;
+  }
+
+  /* line 126, ../sass/screen.sass */
+  .nav-details {
+    display: none;
   }
 }
 @media only screen and (max-width: 479px) {
-  /* line 116, ../sass/screen.sass */
+  /* line 129, ../sass/screen.sass */
   .main {
     margin: 0;
     border: 0;
     padding: 0;
   }
 
-  /* line 121, ../sass/screen.sass */
+  /* line 134, ../sass/screen.sass */
   ul#nav li a {
     text-align: left;
   }
 
-  /* line 123, ../sass/screen.sass */
+  /* line 136, ../sass/screen.sass */
   #goruco {
     float: left;
   }
+
+  /* line 139, ../sass/screen.sass */
+  .nav-details {
+    display: none;
+  }
 }
-/* line 126, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 .manycols {
   clear: left;
 }

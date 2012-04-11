@@ -1,0 +1,18 @@
+---
+layout: big
+---
+
+<div class="fourteen columns" id="secret_header"></div>
+
+<div class='post'>
+  <h1>{{ page.title }}</h1>
+  <div class="clearfix"></div>
+  <div class="post-content">{{ content }}</div>
+  <div class='post-details'>
+    Created {{ page.date | date_to_string }} by {{ page.author }}.
+  </div>
+</div>
+
+<script type="text/javascript">
+ document.getElementById("cfp").setAttribute("class","active");
+</script>
