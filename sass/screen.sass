@@ -86,6 +86,30 @@ a.nav-details
 a.nav-details:hover
   text-decoration: underline
 
+.nav-extras
+  margin: 20px 20px 0 0
+  display: block
+  clear: both
+  float: right
+  h4
+    padding-left: 20px
+    clear: both
+    float: right
+    font-size: 12px
+    line-height: 20px
+    font-weight: bold
+  h4#nav-date
+    background: transparent url(/images/icons/calendar.png) 0 2px no-repeat
+  h4#nav-ticket
+    background: transparent url(/images/icons/ticket.png) 3px 5px no-repeat
+  p
+    text-align: right
+    clear: both
+    float: right
+    font-size: 12px
+    color: #818181
+
+
 
 ul.org-links
   list-style: none
@@ -119,18 +143,35 @@ ul
     border: 0
     padding: 0
   ul#nav
+    margin-bottom: 0
     li a
       text-align: left
   #goruco
     float: left
   .nav-details
     display: none
+  .nav-extras
+    margin: 0
+    display: block
+    clear: both
+    float: left
+    h4
+      padding-left: 20px
+      clear: none
+      float: left
+    p
+      float: left
+      clear: none
+      display: block
+      margin-right: 30px
+      margin-left: 10px
 @media only screen and (max-width: 479px)
   .main
     margin: 0
     border: 0
     padding: 0
   ul#nav
+    margin-bottom: 0
     li a
       text-align: left
   #goruco
@@ -138,6 +179,25 @@ ul
 
   .nav-details
     display: none
+  .nav-extras
+    margin: 0
+    display: block
+    clear: both
+    float: left
+    margin-bottom: 20px
+    h4
+      padding-left: 20px
+      clear: none
+      float: left
+    h4#nav-ticket
+      clear: left
+    p
+      float: left
+      clear: none
+      display: block
+      margin-right: 0
+      margin-left: 10px
+      margin-bottom: 0
 
 .manycols
   clear: left
