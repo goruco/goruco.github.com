@@ -1,0 +1,16 @@
+---
+layout: big
+title: News
+meta: Updates and News for GORUCO.
+author: Steve Berry
+---
+<script type="text/javascript">
+ document.getElementById("news").setAttribute("class","active");
+</script>
+
+
+<h1>News</h1>
+
+{% for post in site.categories.news %}
+{% include post_template.html %}
+{% endfor %}
