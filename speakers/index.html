@@ -7,18 +7,95 @@ meta: GORUCO 2012 speaker line-up.
  document.getElementById("speakers").setAttribute("class","active");
 </script>
 
-  <h1>Speakers</h1>
-    <div class="six columns alpha manycols">
-      <h3>Matt Duncan</h3>
-      <img src="/images/speakers/matt.jpg" alt="Matt Duncan" class="scale-with-grid"/>
-       <h4>Talk Description</h4>
-       <p>At Yammer, we handle thousands of requests per second for pages which consist of private data that varies based on perspective. This perspective makes it difficult to take advantage of traditional Rails caching techniques. To solve this problem, we've moved almost all of our caching to the data layer.</p>
-       <p>In this talk, I'll dig into how this type of caching allows us to cache far less data than traditional methods, invalidate fewer records, improve our cache hit rates, and scale to hundreds of thousands of memcache of requests per second with a 98% cache hit rate - all while showing users data differently based on perspective.</p>
+<h1>Speakers</h1>
 
-        <h4>Bio</h4>
-        <p>Matt is an engineer at Yammer, the leading enterprise social network.  He has contributed to a wide variety of open-source projects and lives in San Francisco.</p>
-    </div>
+<div class="six columns alpha manycols">
+  <h3>Daniel Doubrovkine</h3>
+  <img src="/images/speakers/danieldoubrovkine.jpg" alt="Daniel Doubrovkine"/>
+  <h4>From Zero to API Cache w/ Grape &amp; MongoDB in 10 Minutes</h4>
+  <p>We'll take a Grape API from zero to cache in 10-minutes. This cookbook includes support for ETags, handling relational data, 304s, etc., based on several months of incremental development at Art.sy.</p>
+  <h4>Bio</h4>
+  <p>Daniel Doubrovkine (aka dB.) founded and sold a start-up in the early 90s and completely failed another. He was development lead at Microsoft Corp., Director at Kleiner Perkins Visible Path, Architect and Development Manager at AppSecInc., an Enterprise Software company. Daniel is an open-source cheerleader and avid tech blogger and currently serves as Head of Engineering at Art.sy.</p>
+</div>
 
-    <div class="six columns omega">
-      <h3>Other Speaker Goes Here</h3>
-    </div>
+<div class="six columns omega">
+  <h3>Justin Leitgeb</h3>
+  <img src="/images/speakers/justinleitgeb.jpg" alt="Justin Leitgeb"/>
+  <h4>Sensible Testing</h4>
+  <p>
+    Most Ruby programmers spend significant time writing, maintaining and troubleshooting
+    automated tests. While recent discussions in the Ruby community have focused on whether
+    we're writing too few or too many tests, this talk looks at how we can write "sensible"
+    tests that allow our applications to deliver the most possible value with the least amount
+    of development time and effort.
+  </p>
+  <p>Specific Topics to be Covered:</p>
+  <p>This talk will discuss how to test sensibly by trying to answer the following questions:</p>
+  <ul>
+    <li>What should we be concerned about in systems with Ruby and Rails, and how should that guide us to create appropriate test coverage?</li>
+    <li>What are the different types of tests, and what type of coverage should we try to achieve for different test types?</li>
+    <li>What are signs that a test suite is becoming too large, and how do we prevent this from happening?</li>
+  </ul>
+  <p>In this talk I hope to also demonstrate how writing tests before implementing code helps to shape the architecture of an object-oriented system in a way that may not be achieved by writing tests after a system has been written.</p>
+
+  <h4>Bio</h4>
+  <p>
+    Justin has been programming for more than 15 years, with the last five primarily in Ruby.
+    He has an undergraduate degree in Computer Science and graduate degrees in Sociology and
+    Spanish Literature. He ties these interests together as CEO and Lead Developer of Stack Builders,
+    a Ruby consultancy based in New York and Colombia, South America.
+  </p>
+</div>
+
+<div class="six columns alpha manycols">
+  <h3>Matt Duncan</h3>
+  <img src="/images/speakers/mattduncan.jpg" alt="Matt Duncan"/>
+  <h4>Scaling with Query Caching</h4>
+  <p>At Yammer, we handle thousands of requests per second for pages which consist of private data that varies based on perspective. This perspective makes it difficult to take advantage of traditional Rails caching techniques. To solve this problem, we've moved almost all of our caching to the data layer.</p>
+  <p>In this talk, I'll dig into how this type of caching allows us to cache far less data than traditional methods, invalidate fewer records, improve our cache hit rates, and scale to hundreds of thousands of memcache of requests per second with a 98% cache hit rate - all while showing users data differently based on perspective.</p>
+  <h4>Bio</h4>
+  <p>Matt is an engineer at Yammer, the leading enterprise social network.  He has contributed to a wide variety of open-source projects and lives in San Francisco.</p>
+</div>
+
+<div class="six columns omega">
+  <h3>Matt Wynne</h3>
+  <img src="/images/speakers/mattwynne.jpg" alt="Matt Wynne"/>
+  <h4>Hexagonal Rails</h4>
+  <p>
+    In the early days of a project, Rails absolutely dazzles.
+  </p>
+  <p>Tragically, the very same forces that make it so easy to add new features to a brand new Rails application are the ones that start to hold you back as the number of features grows.</p>
+  <p>Your test suite gets slower and slower, and refactoring becomes more and more of a chore. Everything seems coupled together, and it's hard to see much of a structure other than the MVC triad.</p>
+  <p>In this talk, Matt explains why this happens, and shows you a way out, using a ports-and-adapters or hexagonal architecture to introduce a separation between your application's domain logic, and the Rails framework.</p>
+  <p>With practical examples, you'll learn how to apply techniques like:</p>
+  <ul>
+    <li>tell-don't-ask</li>
+    <li>domain services</li>
+    <li>value objects</li>
+    <li>view models</li>
+    <li>presenters</li>
+  </ul>
+  <p>This talk is suitable for advanced Rubyists who want to enjoy the benefits of Ruby's great Object-Oriented and functional programming features in their Rails applications.</p>
+
+  <h4>Bio</h4>
+  <p>
+    Matt Wynne works as an independent programmer and consultant, helping teams like yours learn to enjoy delivering software to the best of their abilities. He is a core developer on the Cucumber project, and co-author of The Cucumber Book. He blogs at mattwynne.net and tweets as @mattwynne. 
+  </p>
+</div>
+
+<div class="six columns alpha manycols">
+  <h3>Pat Shaughnessy</h3>
+  <img src="/images/speakers/patshaughnessy.jpg" alt="Pat Shaughnessy"/>
+  <h4>Why Hashes Will Be Faster in Ruby 2.0</h4>
+  <p>The upcoming Ruby 2.0 release contains an interesting performance optimization you may not have heard of before: small Hashes are actually implemented as Arrays!</p>
+  <p>In this micro talk, I'll:</p>
+  <ul>
+    <li>review the basic theory behind hash functions and hash tables,</li>
+    <li>show you the new internal data structures that Ruby 2.0 uses to save keys and values, and</li>
+    <li>present some performance data that proves this optimization exists and how much time it will actually save you.</li>
+  </ul>
+  <p>Do you really need to know how Ruby works internally to be a Ruby devloper? Probably not. But looking "under the hood" is a lot of fun, and someday might help you use the language more competently.</p>
+  <h4>Bio</h4>
+  <p>Pat Shaughnessy is a Ruby developer working at a global management consulting firm. Pat also writes a blog about Ruby development at http://patshaughnessy.net, and is working on an eBook about Ruby Internals. Pat's articles and presentations have been featured multiple times on the Ruby Weekly newsletter, the Ruby5 podcast and the Ruby Show. When he's not at the keyword, Pat enjoys spending time with his wife and two kids. Pat is also a fluent Spanish speaker and travels frequently to Spain to visit his wife's family.</p>
+</div>
+
