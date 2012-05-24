@@ -1,13 +1,13 @@
 /*
 Syntax error: Undefined mixin 'border-radius'.
-        on line 4 of /Rails/goruco.github.com/sass/speakers.sass, in `border-radius'
-        from line 4 of /Rails/goruco.github.com/sass/speakers.sass
+        on line 3 of /Rails/goruco.github.com/sass/speakers.sass, in `border-radius'
+        from line 3 of /Rails/goruco.github.com/sass/speakers.sass
 
 1: /Rails/goruco.github.com/sass/speakers.sass
 
 Backtrace:
-/Rails/goruco.github.com/sass/speakers.sass:4:in `border-radius'
-/Rails/goruco.github.com/sass/speakers.sass:4
+/Rails/goruco.github.com/sass/speakers.sass:3:in `border-radius'
+/Rails/goruco.github.com/sass/speakers.sass:3
 /Library/Ruby/Gems/1.8/gems/sass-3.1.18/lib/sass/../sass/tree/visitors/perform.rb:170:in `visit_mixin'
 /Library/Ruby/Gems/1.8/gems/sass-3.1.18/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.1.18/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -92,4 +92,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 4 of /Rails/goruco.github.com/sass/speakers.sass, in `border-radius'\A         from line 4 of /Rails/goruco.github.com/sass/speakers.sass\A \A 1: /Rails/goruco.github.com/sass/speakers.sass"; }
+  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 3 of /Rails/goruco.github.com/sass/speakers.sass, in `border-radius'\A         from line 3 of /Rails/goruco.github.com/sass/speakers.sass\A \A 1: /Rails/goruco.github.com/sass/speakers.sass"; }

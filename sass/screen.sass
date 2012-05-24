@@ -1,6 +1,7 @@
 $primary-color: #ba262b
 
 @import "compass/css3"
+@import speakers.sass
 
 
 // --------- Splash Page ------------
@@ -87,6 +88,22 @@ a.nav-details
   text-decoration: none
 a.nav-details:hover
   text-decoration: underline
+
+a#buy-tickets
+  background: $primary-color url(/images/icons/ticket-large.png) 16px 9px no-repeat
+  font-weight: bold
+  font-size: 20px
+  line-height: 25px
+  +border-radius(5px)
+  color: #fff
+  display: block
+  overflow: hidden
+  margin-bottom: 30px
+  padding: 20px 20px 20px 74px
+a#buy-tickets:hover
+  background: #232323 url(/images/icons/ticket-large.png) 16px 9px no-repeat
+a#buy-tickets:active
+  background: #000 url(/images/icons/ticket-large.png) 16px 9px no-repeat
 
 .nav-extras
   margin: 20px 20px 0 0
