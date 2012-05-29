@@ -45,6 +45,9 @@ If you've never been to GORUCO before, now's a great time to start. You get poss
 
 (Well, there's one other surprise I'd love to let you in on right now, but apparently _some organizers_ feel that we should wait 'til we're properly prepared to talk about it. So that one will have to wait for now. Razzafrazzin' co-organizers.)
 
+_Update: "My, that's a [mighty big yacht](/party/) you've got there, GORUCO." "Yes,
+yes it is." _
+
 All in all, you get an inspirational, mind-expanding hacker conference, all without having to leave the greatest city in the world. [Won't you join us?](http://bit.ly/goruco-2012-registration)
 
 
