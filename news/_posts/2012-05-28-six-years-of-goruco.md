@@ -37,9 +37,9 @@ When we started planning this year's event, we decided we needed a bigger venue.
 This year, we've moved to the [Altman Building](http://www.altmanbldg.com/), a top-notch event space in the Flatiron district. We're thrilled to be able to host more of our friends and colleagues this year. Not only does it mean that getting a ticket is easier, but it means there are more people to catch up with at lunch, or between talks, or at one of the events before or after the conference itself.
 
 
-In addition, we redoubled our efforts to craft a great program, and [the results speak for themselves](/speakers/). We have a program that's packed with stars, including [Dave Chelimsky](/speakers/2012/05/22/chelimsky-david.html), [Jim Weirich](/speakers/2012/05/22/weirich-jim.html), and [Dr. Nic](/speakers/2012/05/22/williams-nic.html). We've been proud of our lineup every year, but this could be our best yet. You can find other events with speakers this good, but none that you can get to on the subway.
+In addition, we redoubled our efforts to craft a great program, and [the results speak for themselves](/speakers/). We have a program that's packed with stars, including [David Chelimsky](/speakers/2012/05/22/chelimsky-david.html), [Jim Weirich](/speakers/2012/05/22/weirich-jim.html), and [Dr. Nic](/speakers/2012/05/22/williams-nic.html). We've been proud of our lineup every year, but this could be our best yet. You can find other events with speakers this good, but none that you can get to on the subway.
 
-### So, why go? 
+### So, why go?
 
 If you've never been to GORUCO before, now's a great time to start. You get possibly the best lineup of any New York hacker event this year. You get a conference that is planned by a group of hard-working organizers with an established track record. And you also get--
 
