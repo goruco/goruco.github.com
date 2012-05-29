@@ -24,6 +24,11 @@ author: Steve Berry
 <a href="/speakers" style="float:left;clear:both;">View All Speakers</a>
 </div>
 
+<figure>
+<a href="/party">
+<img src="/images/party/yacht-party.jpg" alt="GORUCO Yacht After-Party" class="scale-with-grid"/></a>
+<figcaption><a href="/party">The 210 foot Hornblower Infinity yacht for this year's after-party.</a></figcaption>
+</figure>
 
 <div class="six columns alpha">
 <h4 id="key-info">Schedule</h4>
@@ -38,7 +43,7 @@ author: Steve Berry
 <h4 id="latest-news">Latest News</h4>
 
 {% for post in site.categories.news limit:1 %}
-{% include post_template.html %}
+{% include homepage_template.html %}
 {% endfor %}
 
 </div>
