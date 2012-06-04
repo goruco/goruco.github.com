@@ -1,0 +1,9 @@
+/* line 9, ../sass/sponsors.sass */
+#intent {
+  background: url("/images/sponsors/intent.png") 0 0 no-repeat;
+  display: block;
+  text-indent: -99999px;
+  height: 100px;
+  width: 100px;
+  float: right;
+}
