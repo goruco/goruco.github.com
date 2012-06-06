@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matt Duncan
-meta: Scaling with Query Caching
+meta: High Performance Caching with Rails
 desc: In this talk, I'll dig into how this type of caching allows us to cache far less data than traditional methods, invalidate fewer records, improve our cache hit rates, and scale to hundreds of thousands of memcache of requests per second with a 98% cache hit rate - all while showing users data differently based on perspective.
 image: /images/speakers/small/duncan.jpg
 author: GORUCO
