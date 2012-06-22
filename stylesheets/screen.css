@@ -199,7 +199,7 @@ a#buy-tickets:active {
 }
 
 /* line 110, ../sass/screen.sass */
-a#live {
+a#live-cta {
   background: #ba262b;
   font-weight: bold;
   font-size: 20px;
@@ -217,12 +217,12 @@ a#live {
 }
 
 /* line 121, ../sass/screen.sass */
-a#live:hover {
+a#live-cta:hover {
   background-color: #232323;
 }
 
 /* line 123, ../sass/screen.sass */
-a#live:active {
+a#live-cta:active {
   background-color: black;
 }
 
