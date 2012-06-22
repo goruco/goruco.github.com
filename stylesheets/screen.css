@@ -199,13 +199,41 @@ a#buy-tickets:active {
 }
 
 /* line 110, ../sass/screen.sass */
+a#live {
+  background: #ba262b;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 121, ../sass/screen.sass */
+a#live:hover {
+  background-color: #232323;
+}
+
+/* line 123, ../sass/screen.sass */
+a#live:active {
+  background-color: black;
+}
+
+/* line 126, ../sass/screen.sass */
 .nav-extras {
   margin: 20px 20px 0 0;
   display: block;
   clear: both;
   float: right;
 }
-/* line 115, ../sass/screen.sass */
+/* line 131, ../sass/screen.sass */
 .nav-extras h4 {
   padding-left: 20px;
   clear: both;
@@ -214,15 +242,15 @@ a#buy-tickets:active {
   line-height: 20px;
   font-weight: bold;
 }
-/* line 122, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 .nav-extras h4#nav-date {
   background: transparent url(/images/icons/calendar.png) 0 2px no-repeat;
 }
-/* line 124, ../sass/screen.sass */
+/* line 140, ../sass/screen.sass */
 .nav-extras h4#nav-ticket {
   background: transparent url(/images/icons/ticket.png) 3px 5px no-repeat;
 }
-/* line 126, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 .nav-extras p {
   text-align: right;
   clear: both;
@@ -231,74 +259,74 @@ a#buy-tickets:active {
   color: #818181;
 }
 
-/* line 135, ../sass/screen.sass */
+/* line 151, ../sass/screen.sass */
 ul.org-links {
   list-style: none;
 }
-/* line 137, ../sass/screen.sass */
+/* line 153, ../sass/screen.sass */
 ul.org-links a {
   padding-left: 25px;
   line-height: 30px;
 }
-/* line 140, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 ul.org-links a.link {
   background: url(/images/icons/link.png) left center no-repeat;
 }
-/* line 142, ../sass/screen.sass */
+/* line 158, ../sass/screen.sass */
 ul.org-links a.twitter {
   background: url(/images/icons/twitter.png) left center no-repeat;
 }
-/* line 144, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 ul.org-links a.git {
   background: url(/images/icons/git.png) left center no-repeat;
 }
-/* line 146, ../sass/screen.sass */
+/* line 162, ../sass/screen.sass */
 ul.org-links li {
   margin: 0;
 }
 
-/* line 149, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 ul {
   list-style: disc;
 }
-/* line 151, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 ul li {
   margin-left: 30px;
 }
 
-/* line 154, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
 #sched-list {
   list-style: none;
 }
-/* line 156, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 #sched-list li {
   margin-left: 30px;
   margin-bottom: 20px;
 }
-/* line 159, ../sass/screen.sass */
+/* line 175, ../sass/screen.sass */
 #sched-list li .time {
   clear: both;
   font-weight: bold;
 }
 
-/* line 163, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .organizers {
   margin-bottom: 40px;
 }
 
-/* line 166, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .video-holder {
   height: 350px;
 }
 
-/* line 170, ../sass/screen.sass */
+/* line 186, ../sass/screen.sass */
 #latest-news {
   padding-left: 35px;
   background: transparent url(/images/icons/news.png) 0 0 no-repeat;
   margin-bottom: 20px;
 }
 
-/* line 175, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 #key-info {
   padding-left: 35px;
   margin-bottom: 20px;
@@ -306,46 +334,46 @@ ul li {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 181, ../sass/screen.sass */
+  /* line 197, ../sass/screen.sass */
   .main {
     margin: 0;
     border: 0;
     padding: 0;
   }
 
-  /* line 185, ../sass/screen.sass */
+  /* line 201, ../sass/screen.sass */
   ul#nav {
     margin-bottom: 0;
   }
-  /* line 187, ../sass/screen.sass */
+  /* line 203, ../sass/screen.sass */
   ul#nav li a {
     text-align: left;
   }
 
-  /* line 189, ../sass/screen.sass */
+  /* line 205, ../sass/screen.sass */
   #goruco {
     float: left;
   }
 
-  /* line 191, ../sass/screen.sass */
+  /* line 207, ../sass/screen.sass */
   .nav-details {
     display: none;
   }
 
-  /* line 193, ../sass/screen.sass */
+  /* line 209, ../sass/screen.sass */
   .nav-extras {
     margin: 0;
     display: block;
     clear: both;
     float: left;
   }
-  /* line 198, ../sass/screen.sass */
+  /* line 214, ../sass/screen.sass */
   .nav-extras h4 {
     padding-left: 20px;
     clear: none;
     float: left;
   }
-  /* line 202, ../sass/screen.sass */
+  /* line 218, ../sass/screen.sass */
   .nav-extras p {
     float: left;
     clear: none;
@@ -355,33 +383,33 @@ ul li {
   }
 }
 @media only screen and (max-width: 479px) {
-  /* line 209, ../sass/screen.sass */
+  /* line 225, ../sass/screen.sass */
   .main {
     margin: 0;
     border: 0;
     padding: 0;
   }
 
-  /* line 213, ../sass/screen.sass */
+  /* line 229, ../sass/screen.sass */
   ul#nav {
     margin-bottom: 0;
   }
-  /* line 215, ../sass/screen.sass */
+  /* line 231, ../sass/screen.sass */
   ul#nav li a {
     text-align: left;
   }
 
-  /* line 217, ../sass/screen.sass */
+  /* line 233, ../sass/screen.sass */
   #goruco {
     float: left;
   }
 
-  /* line 220, ../sass/screen.sass */
+  /* line 236, ../sass/screen.sass */
   .nav-details {
     display: none;
   }
 
-  /* line 222, ../sass/screen.sass */
+  /* line 238, ../sass/screen.sass */
   .nav-extras {
     margin: 0;
     display: block;
@@ -389,17 +417,17 @@ ul li {
     float: left;
     margin-bottom: 20px;
   }
-  /* line 228, ../sass/screen.sass */
+  /* line 244, ../sass/screen.sass */
   .nav-extras h4 {
     padding-left: 20px;
     clear: none;
     float: left;
   }
-  /* line 232, ../sass/screen.sass */
+  /* line 248, ../sass/screen.sass */
   .nav-extras h4#nav-ticket {
     clear: left;
   }
-  /* line 234, ../sass/screen.sass */
+  /* line 250, ../sass/screen.sass */
   .nav-extras p {
     float: left;
     clear: none;
@@ -409,7 +437,7 @@ ul li {
     margin-bottom: 0;
   }
 }
-/* line 242, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .manycols {
   clear: left;
 }
