@@ -331,4 +331,34 @@
   .half-bottom { margin-bottom: 10px !important; }
   .add-bottom { margin-bottom: 20px !important; }
 
+  table {
+    margin-bottom: 30px;
+    empty-cells: hide;
+  }
 
+  th, td {
+    padding: 10px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  td {
+    text-align: right;
+    min-width: 50px;
+  }
+
+  thead th {
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+  }
+
+  tbody th {
+    text-align: left;
+    border-right: 1px solid #ccc;
+  }
+
+  tr.even td {
+    background: #eee
+  }

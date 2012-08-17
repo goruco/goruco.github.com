@@ -1,4 +1,4 @@
-/* line 2, ../sass/_speakers.sass */
+/* line 2, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speaker img {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -7,29 +7,29 @@
   border-radius: 3px;
   float: left;
 }
-/* line 5, ../sass/_speakers.sass */
+/* line 5, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speaker a {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 11, ../sass/_speakers.sass */
+/* line 11, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speakers .speaker img {
   margin-bottom: 60px;
   margin-right: 20px;
 }
 
-/* line 15, ../sass/_speakers.sass */
+/* line 15, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speakers-icons {
   margin-bottom: 30px;
   overflow: hidden;
 }
-/* line 18, ../sass/_speakers.sass */
+/* line 18, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speakers-icons .speaker {
   float: left;
   clear: none;
 }
-/* line 21, ../sass/_speakers.sass */
+/* line 21, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_speakers.sass */
 .speakers-icons .speaker img {
   float: left;
   clear: none;
@@ -38,11 +38,11 @@
   margin-bottom: 5px;
 }
 
-/* line 9, ../sass/_sponsors.sass */
+/* line 9, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_sponsors.sass */
 .main-sponsors {
   margin-bottom: 20px;
 }
-/* line 11, ../sass/_sponsors.sass */
+/* line 11, /Users/francis/Tech/ruby/goruco/goruco.github.com/sass/_sponsors.sass */
 .main-sponsors a {
   margin: 10px 40px;
   display: block;

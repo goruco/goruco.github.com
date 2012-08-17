@@ -38,13 +38,9 @@ blockquote > *, .insight > * {
 blockquote *:first-child, .insight *:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
-  -ms-border-top-left-radius: 5px;
-  -o-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
-  -ms-border-top-right-radius: 5px;
-  -o-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
   padding-top: 25px;
 }
@@ -52,13 +48,9 @@ blockquote *:first-child, .insight *:first-child {
 blockquote *:last-child, .insight *:last-child {
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
-  -ms-border-bottom-left-radius: 5px;
-  -o-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
   -webkit-border-bottom-right-radius: 5px;
-  -ms-border-bottom-right-radius: 5px;
-  -o-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-bottom: 25px;
 }
