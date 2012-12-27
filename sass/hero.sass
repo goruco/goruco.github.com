@@ -1,0 +1,112 @@
+#hero
+  width: 940px
+  height: 499px
+  display: block
+  background: transparent url(/images/hero/hero.jpg) 0 0 no-repeat
+  position: relative
+  h2
+    color: #fff
+    font-weight: 100
+    float: left
+    margin-top: 330px
+    margin-left: 40px
+    text-shadow: 0 0 20px #fff
+    opacity: 0
+    @include transition (all 1.2s ease-in-out)
+    &.magic
+      text-shadow: none
+      color: #fff
+      opacity: 1
+      margin-top: 340px
+
+#prompt
+  border-bottom: 1px dotted $gray
+  margin-bottom: 40px
+  .half
+    height: 100px
+    @include transition (all 1.2s ease-in-out)
+    &.tall
+      height: 100px
+    p
+      opacity: 1
+      text-align: center
+      margin-top: 35px
+
+#previous_articles
+  margin-top: 95px
+  h3
+    font-size: 21px
+  ul
+    margin: 0
+    padding: 0
+    li
+      padding: 15px 10px 15px 0
+      border-bottom: 1px dotted $lightgray
+      &:last-child
+        border-bottom: none
+      a
+        display: block
+        text-decoration: none
+        @include transition (background 0.4s ease-in-out)
+        &:hover
+
+#sponsors
+  margin: 30px 0
+  padding: 30px 0
+  border-top: 1px dotted $gray
+  border-bottom: 1px dotted $gray
+  h2
+    margin: 0
+    text-align: center
+
+#about
+  padding: 40px 10px
+  border-bottom: 1px dotted $gray
+  margin-bottom: 40px
+  h2, p
+    text-align: center
+  p
+    margin-left: 130px
+    margin-right: 130px
+
+#map
+  h2
+    text-align: center
+    margin-bottom: 40px
+    margin-top: 20px
+
+
+#where, #when, #party
+  margin-bottom: 50px
+  h4
+    margin-top: 20px
+    border-bottom: 1px dotted $lightgray
+    padding-bottom: 20px
+    margin-bottom: 20px
+  p
+    margin-bottom: 0
+
+#speakers
+  border-top: 1px dotted $gray
+  clear: both
+  display: block
+  margin-top: 40px
+  padding-top: 60px
+  h2
+    text-align: center
+
+#organizers
+  border-top: 1px dotted $gray
+  border-bottom: 1px dotted $gray
+  clear: both
+  display: block
+  margin-top: 40px
+  padding-top: 60px
+  margin-bottom: 40px
+  padding-bottom: 60px
+  h2
+    text-align: center
+
+.opaque
+  opacity: 1 !important
+  @include transition (all 1.2s ease-in-out)

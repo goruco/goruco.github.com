@@ -1,260 +1,33 @@
-$primary-color: #ba262b
-
-@import "compass/css3"
-@import "compass/typography"
-@import speakers.sass
-@import sponsors.sass
+@import "960.css"
+@import "reset.css"
+@import "text.css"
 
 
-// --------- Splash Page ------------
+$red: #ba262b
+$body: #444444
+$gray: #bcbcbc
+$lightgray: #e5e5e5
 
-#goruco
-  background: transparent url(/images/icons/goruco.png) 0 0 no-repeat
-  height: 47px
-  width: 44px
-  display: block
-  float: right
-  text-indent: -99999px
-  clear: both
-  margin: 40px 10px 40px 0
+$half-width: 470px
 
-.main
-  margin-top: 110px
-  border-left: 2px solid #c93925
-  margin-left: 38px
-  padding-left: 20px
+@mixin border-radius($var)
+  @include border-top-radius($var)
+  @include border-bottom-radius($var)
+  @include border-left-radius($var)
+  @include border-right-radius($var)
 
-a, a:visited
-  color: #c93925
-a:hover
-  text-decoration: none
+@import bourbon/bourbon.scss
+@import layout.sass
+@import text.sass
+@import header.sass
+@import hero.sass
+@import org_person.sass
+
 
 body
-  color: #232323
-  font-family: georgia
-  font-size: 16px
-  line-height: 20px
+  font-family: "proxima-nova"
+  color: $body
+  -webkit-font-smoothing: antialiased
 
-img
-  margin-bottom: 20px
-
-figure
-  img
-    margin: 0
-  figcaption
-    font-size: 12px
-    color: #545454
-    line-height: 15px
-    margin-bottom: 20px
-
-// --------- Fonts------------
-h1, h2, h3, h4, h5
-  font-family: "proxima-nova",sans-serif
-h1
-  font-weight: bold
-h4, h5
-  font-weight: bold
-
-p
-  margin-bottom: 30px
-
-.post-details
-  color: #818181
-  font-size: 12px
-
-// --------- Lists------------
-
-ul#nav
-  list-style: none
-  clear: both
-  li
-    margin-left: 0
-    text-align: right
-    margin-bottom: 0
-    a, a:visited
-      color: #232323
-      padding: 10px 20px 10px 10px
-      display: block
-      text-decoration: none
-    a.active, a:hover
-      background: #2c2b25 url(/images/icons/wedge.png) right center no-repeat
-      color: #fff
-
-a.nav-details
-  color: #818181
-  font-size: 12px
-  text-align: right
-  clear: both
-  float: right
-  margin-right: 20px
-  text-decoration: none
-a.nav-details:hover
-  text-decoration: underline
-
-a#buy-tickets
-  background: $primary-color url(/images/icons/ticket-large.png) 16px 9px no-repeat
-  font-weight: bold
-  font-size: 20px
-  line-height: 25px
-  +border-radius(5px)
-  color: #fff
-  display: block
-  overflow: hidden
-  margin-bottom: 30px
-  padding: 20px 20px 20px 74px
-a#buy-tickets:hover
-  background: #232323 url(/images/icons/ticket-large.png) 16px 9px no-repeat
-a#buy-tickets:active
-  background: #000 url(/images/icons/ticket-large.png) 16px 9px no-repeat
-
-a#live-cta
-  background: $primary-color
-  font-weight: bold
-  font-size: 20px
-  line-height: 25px
-  +border-radius(5px)
-  color: #fff
-  display: block
-  overflow: hidden
-  margin-bottom: 30px
-  padding: 20px 20px 20px 20px
-a#live-cta:hover
-  background-color: #232323
-a#live-cta:active
-  background-color: #000
-
-.nav-extras
-  margin: 20px 20px 0 0
-  display: block
-  clear: both
-  float: right
-  h4
-    padding-left: 20px
-    clear: both
-    float: right
-    font-size: 12px
-    line-height: 20px
-    font-weight: bold
-  h4#nav-date
-    background: transparent url(/images/icons/calendar.png) 0 2px no-repeat
-  h4#nav-ticket
-    background: transparent url(/images/icons/ticket.png) 3px 5px no-repeat
-  p
-    text-align: right
-    clear: both
-    float: right
-    font-size: 12px
-    color: #818181
-
-
-
-ul.org-links
-  list-style: none
-  a
-    padding-left: 25px
-    line-height: 30px
-  a.link
-    background: url(/images/icons/link.png) left center no-repeat
-  a.twitter
-    background: url(/images/icons/twitter.png) left center no-repeat
-  a.git
-    background: url(/images/icons/git.png) left center no-repeat
-  li
-    margin: 0
-
-ul
-  list-style: disc
-  li
-    margin-left: 30px
-
-#sched-list
-  list-style: none
-  li
-    margin-left: 30px
-    margin-bottom: 20px
-    .time
-      clear: both
-      font-weight: bold
-
-.organizers
-  margin-bottom: 40px
-
-.video-holder
-  height: 350px
-
-
-#latest-news
-  padding-left: 35px
-  background: transparent url(/images/icons/news.png) 0 0 no-repeat
-  margin-bottom: 20px
-
-#key-info
-  padding-left: 35px
-  margin-bottom: 20px
-  background: transparent url(/images/icons/info.png) 0 0 no-repeat
-
-@media only screen and (min-width: 480px) and (max-width: 767px)
-  .main
-    margin: 0
-    border: 0
-    padding: 0
-  ul#nav
-    margin-bottom: 0
-    li a
-      text-align: left
-  #goruco
-    float: left
-  .nav-details
-    display: none
-  .nav-extras
-    margin: 0
-    display: block
-    clear: both
-    float: left
-    h4
-      padding-left: 20px
-      clear: none
-      float: left
-    p
-      float: left
-      clear: none
-      display: block
-      margin-right: 30px
-      margin-left: 10px
-@media only screen and (max-width: 479px)
-  .main
-    margin: 0
-    border: 0
-    padding: 0
-  ul#nav
-    margin-bottom: 0
-    li a
-      text-align: left
-  #goruco
-    float: left
-
-  .nav-details
-    display: none
-  .nav-extras
-    margin: 0
-    display: block
-    clear: both
-    float: left
-    margin-bottom: 20px
-    h4
-      padding-left: 20px
-      clear: none
-      float: left
-    h4#nav-ticket
-      clear: left
-    p
-      float: left
-      clear: none
-      display: block
-      margin-right: 0
-      margin-left: 10px
-      margin-bottom: 0
-
-.manycols
-  clear: left
-
+a
+  color: $red

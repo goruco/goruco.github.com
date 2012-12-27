@@ -1,0 +1,15 @@
+/* line 1, ../sass/header.sass */
+#header {
+  height: 100px;
+}
+/* line 3, ../sass/header.sass */
+#header #logo {
+  margin-top: 25px;
+  display: block;
+  float: left;
+}
+/* line 7, ../sass/header.sass */
+#header #date {
+  float: right;
+  margin-top: 35px;
+}

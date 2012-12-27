@@ -1,0 +1,36 @@
+.org_person
+  img
+    float: right
+    +border-radius(500px)
+    height: 160px
+    width: 160px
+  .avatar
+    border: 5px solid $lightgray
+    float: right
+    +border-radius(500px)
+  a
+    color: $body
+    text-decoration: none
+    display: block
+    overflow: hidden
+    @include transition (all 0.5s ease-in-out)
+  h5
+    font-size: 34px
+    font-weight: normal
+    line-height: 160px
+    margin-right: 20px
+    float: right
+
+.org_person.rfloat
+  img, .avatar, h5
+    float: left
+  h5
+    margin: 0 0 0 20px
+
+.org_person:hover a
+  background: $gray
+
+#berryexpand
+  background: #fff
+  width: 600px
+  display: block

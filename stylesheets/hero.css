@@ -1,14 +1,22 @@
 /*
-Syntax error: Undefined variable: "$half-width".
-        on line 2 of /Rails/goruco.github.com/sass/layout.sass
-
-1: /Rails/goruco.github.com/sass/layout.sass
+Syntax error: Undefined mixin 'transition'.
+        on line 15 of /Rails/goruco.github.com/sass/hero.sass, in `transition'
+        from line 15 of /Rails/goruco.github.com/sass/hero.sass
 
 Backtrace:
-/Rails/goruco.github.com/sass/layout.sass:2
-/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
-/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
-/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:294:in `visit_prop'
+/Rails/goruco.github.com/sass/hero.sass:15:in `transition'
+/Rails/goruco.github.com/sass/hero.sass:15
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:249:in `visit_mixin'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
 /Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
 /Users/Berry/.rbenv/versions/1.9.3-p194-perf/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -82,4 +90,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$half-width\".\A         on line 2 of /Rails/goruco.github.com/sass/layout.sass\A \A 1: /Rails/goruco.github.com/sass/layout.sass"; }
+  content: "Syntax error: Undefined mixin 'transition'.\A         on line 15 of /Rails/goruco.github.com/sass/hero.sass, in `transition'\A         from line 15 of /Rails/goruco.github.com/sass/hero.sass"; }

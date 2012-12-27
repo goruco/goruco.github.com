@@ -5,11 +5,145 @@ meta: The Premier Ruby Conference in New York City
 author: Steve Berry
 ---
 
-<h1>GORUCO</h1>
-<h2>The Premier Ruby Conference<br/>in New York City.</h2>
+<script language="javascript" src="javascripts/testing.js"></script>
+
+<div class="grid_12" id="header">
+  <a href="#" id="logo"><img src="/images/icons/goruco.png" height=43 width=160/></a>
+  <p id="date">June 8, 2013</p>
+</div>
+
+<div class="grid_12">
+  <div id="hero">
+    <h2>The Premier Ruby Conference<br/>in New York City.</h2>
+  </div>
+</div>
+
+<div class="grid_12" id="prompt">
+  <div class="half rborder">
+    <p>Tickets go on sale March 14th, 2013</p>
+  </div>
+  <div class="half">
+    <p>CFP Opens Janauary 16th</p>
+  </div>
+</div>
+
+<div class="grid_8">
+  <h2>Gender Diversity</h2>
+  <p>It’s an old story: The tech scene has a gender problem. And unfortunately, GORUCO isn’t much different than other tech conferences in this respect. When we announced our speakers for GORUCO 2012, we and others couldn’t help but notice an unfortunate imbalance: 13 speakers, all of them men.</p>
+
+  <p>For all the aspects of GORUCO that we’re proud of, we know we can be doing more to address gender diversity. So after the dust settled from this year’s conference, we decided to reach out for help from some of our friends in the community.</p>
+
+  <p>While we don’t have much to announce yet, we have started the conversation internally, and wanted to bring that conversation out in the open to be completely transparent about what it is we’re doing to address this for GORUCO 2013.</p>
+  <p>Read Entire Article…</p>
+</div>
+<div class="grid_4" id="previous_articles">
+  <h3>Previous Articles</h3>
+  <ul>
+    <li><a href="#">Gender diversity</a></li>
+    <li><a href="#">Pre-Party Details</a></li>
+    <li><a href="#">Some Article</a></li>
+    <li><a href="#">View All Articles…</a></li>
+  </ul>
+</div>
+<div class="clear"></div>
+
+<div class="grid_12" id="sponsors">
+  <h2>Sponsors</h2>
+</div>
+
+<div class="grid_12" id="about">
+  <h2>About GORUCO</h2>
+  <p>The Gotham Ruby Conference (GORUCO) is a one-day event that will take place in New York City on June 8, 2013. It is a technical conference aimed at highly motivated programmers interested in all things Ruby.</p>
+
+  <p>You'll spend the day among Rubyists, Rails developers, and language enthusiasts in New York City, home of Silicon Alley.</p>
+</div>
+
+<div class="grid_12" id="map">
+  <h2>Where &amp; When</h2>
+  <iframe width="940" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=altman+building+nyc&amp;fb=1&amp;gl=us&amp;hq=altman+building&amp;hnear=0x89c24fa5d33f083b:0xc80b8f06e177fe62,New+York,+NY&amp;cid=0,0,6401999759563279041&amp;t=m&amp;ll=40.740852,-73.995559&amp;spn=0.00569,0.020278&amp;z=16&amp;output=embed"></iframe>
+</div>
+
+<div class="grid_4" id="where">
+  <h4>Where</h4>
+  <p>135 West 18th Street<br/>New York, NY<br/>10011</p>
+</div>
+
+<div class="grid_4" id="when">
+  <h4>When</h4>
+  <p>June 8, 2013</p>
+  <p>8:30AM Registration</p>
+  <p>9:00AM Conference Starts</p>
+  <p>6:00PM Conference Ends</p>
+</div>
+
+<div class="grid_4" id="party">
+  <h4>After-Party</h4>
+  <p>7:30PM After-Party Boarding</p>
+  <p>8:00PM Departure</p>
+  <p>11:00PM Return</p>
+</div>
+<div class="clear"></div>
+
+<div class="grid_12" id="speakers">
+  <h2>Speakers</h2>
+  <ul>
+    <li>
+      <h4>Power Rake</h4>
+      <p>Jim Weinrench</p>
+      <p class="sub">Watch Video</p>
+    </li>
+  </ul>
+</div>
+
+<div class="clear"></div>
+
+<div class="grid_12" id="organizers">
+  <h2>Organizers</h2>
+</div>
+<div class="grid_6 org_person">
+  <a href="#">
+    <div class="avatar">
+      <img src="/images/people/berry.png"/>
+    </div>
+    <h5>Steve Berry</h5>
+  </a>
+</div>
+
+<div class="grid_6 org_person rfloat">
+  <a href="#">
+    <div class="avatar">
+      <img src="/images/people/berry.png"/>
+    </div>
+    <h5>Steve Berry</h5>
+  </a>
+</div>
+
+{% for post in site.categories.organizers %}
+<div class="grid_6 org_person {% cycle '', 'rfloat' %}">
+  <a href="#" id="berry">
+    <div class="avatar">
+      <img src="{{ post.image }}" alt="{{ post.title }}"/>
+    </div>
+    <h5>{{ post.title | xml_escape }}</h5>
+  </a>
+</div>
+
+<div class="grid_6" id="berryexpand"style="display: none">
+  <p>{{ post.desc }}</p>
+</div>
+{% endfor %}
+
+<div class="clear"></div>
+
+<h1>H1 GORUCO</h1>
+
+
+<h3>H3 Something goes here</h3>
+<h4>H4 Something else goes here</h4>
 <br/>
-<h3>Save the date! June 8, 2013.</h4>
 <br/>
+
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris.</p>
 
 <p>Follow us on twitter: <a href="http://twitter.com/goruco" target="blank">@goruco</a>
 
@@ -29,3 +163,5 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
 </div>
 
 <!--End mc_embed_signup-->
+
+</div>
