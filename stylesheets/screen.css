@@ -21,23 +21,23 @@
 }
 
 /* line 1, ../sass/text.sass */
-h1, h2, h3 {
+h1, h2, h3, .lightbox h5 {
   font-weight: 100;
 }
 
 /* line 4, ../sass/text.sass */
 h1 {
-  font-size: 88px;
+  font-size: 54px;
 }
 
 /* line 6, ../sass/text.sass */
 h2 {
-  font-size: 54px;
+  font-size: 88px;
   margin-bottom: 30px;
 }
 
 /* line 9, ../sass/text.sass */
-h3 {
+h3, .lightbox h5 {
   font-size: 34px;
 }
 
@@ -78,7 +78,7 @@ p {
   position: relative;
 }
 /* line 7, ../sass/hero.sass */
-#hero h2 {
+#hero h1 {
   color: white;
   font-weight: 100;
   float: left;
@@ -93,7 +93,7 @@ p {
   transition: all 1.2s ease-in-out;
 }
 /* line 16, ../sass/hero.sass */
-#hero h2.magic {
+#hero h1.magic {
   text-shadow: none;
   color: white;
   opacity: 1;
@@ -125,92 +125,142 @@ p {
   margin-top: 35px;
 }
 
-/* line 35, ../sass/hero.sass */
-#previous_articles {
-  margin-top: 95px;
+/* line 34, ../sass/hero.sass */
+.constrain500 {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
 }
-/* line 37, ../sass/hero.sass */
-#previous_articles h3 {
+
+/* line 38, ../sass/hero.sass */
+#article {
+  overflow: hidden;
+  position: relative;
+}
+/* line 41, ../sass/hero.sass */
+#article h3, #article .lightbox h5, .lightbox #article h5 {
+  font-weight: 600;
+  margin-bottom: 29px;
+}
+
+/* line 44, ../sass/hero.sass */
+.shader {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  display: block;
+  bottom: 0;
+  left: 0;
+  background: url(/images/icons/gradient.png) 0 0 repeat-x;
+}
+
+/* line 52, ../sass/hero.sass */
+#previous_articles {
+  margin-top: 140px;
+}
+/* line 54, ../sass/hero.sass */
+#previous_articles h3, #previous_articles .lightbox h5, .lightbox #previous_articles h5 {
   font-size: 21px;
 }
-/* line 39, ../sass/hero.sass */
+/* line 56, ../sass/hero.sass */
 #previous_articles ul {
   margin: 0;
   padding: 0;
 }
-/* line 42, ../sass/hero.sass */
+/* line 59, ../sass/hero.sass */
 #previous_articles ul li {
-  padding: 15px 10px 15px 0;
+  padding: 0 10px 0 0;
   border-bottom: 1px dotted #e5e5e5;
 }
-/* line 45, ../sass/hero.sass */
+/* line 62, ../sass/hero.sass */
 #previous_articles ul li:last-child {
   border-bottom: none;
 }
-/* line 47, ../sass/hero.sass */
+/* line 64, ../sass/hero.sass */
 #previous_articles ul li a {
   display: block;
+  padding: 15px 0;
   text-decoration: none;
-  -webkit-transition: background 0.4s ease-in-out;
-  -moz-transition: background 0.4s ease-in-out;
-  -ms-transition: background 0.4s ease-in-out;
-  -o-transition: background 0.4s ease-in-out;
-  transition: background 0.4s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  background: url(/images/icons/wedge.png) 310px 19px no-repeat;
+}
+/* line 70, ../sass/hero.sass */
+#previous_articles ul li a:hover {
+  background: url(/images/icons/wedge.png) 281px 19px no-repeat;
+  background-size: 7px 12px;
+  text-decoration: underline;
+}
+/* line 74, ../sass/hero.sass */
+#previous_articles ul #all_articles {
+  background: transparent url(/images/icons/read.png) 0 7px no-repeat;
+  background-size: 32px 32px;
+}
+/* line 77, ../sass/hero.sass */
+#previous_articles ul #all_articles a {
+  padding-left: 40px;
 }
 
-/* line 53, ../sass/hero.sass */
+/* line 80, ../sass/hero.sass */
 #sponsors {
   margin: 30px 0;
   padding: 30px 0;
   border-top: 1px dotted #bcbcbc;
   border-bottom: 1px dotted #bcbcbc;
 }
-/* line 58, ../sass/hero.sass */
+/* line 85, ../sass/hero.sass */
 #sponsors h2 {
-  margin: 0;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+/* line 88, ../sass/hero.sass */
+#sponsors p {
   text-align: center;
 }
 
-/* line 62, ../sass/hero.sass */
+/* line 91, ../sass/hero.sass */
 #about {
   padding: 40px 10px;
   border-bottom: 1px dotted #bcbcbc;
   margin-bottom: 40px;
 }
-/* line 66, ../sass/hero.sass */
+/* line 95, ../sass/hero.sass */
 #about h2, #about p {
   text-align: center;
 }
-/* line 68, ../sass/hero.sass */
+/* line 97, ../sass/hero.sass */
 #about p {
   margin-left: 130px;
   margin-right: 130px;
 }
 
-/* line 73, ../sass/hero.sass */
+/* line 102, ../sass/hero.sass */
 #map h2 {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
-/* line 79, ../sass/hero.sass */
+/* line 108, ../sass/hero.sass */
 #where, #when, #party {
   margin-bottom: 50px;
 }
-/* line 81, ../sass/hero.sass */
+/* line 110, ../sass/hero.sass */
 #where h4, #when h4, #party h4 {
   margin-top: 20px;
   border-bottom: 1px dotted #e5e5e5;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 86, ../sass/hero.sass */
+/* line 115, ../sass/hero.sass */
 #where p, #when p, #party p {
   margin-bottom: 0;
 }
 
-/* line 89, ../sass/hero.sass */
+/* line 118, ../sass/hero.sass */
 #speakers {
   border-top: 1px dotted #bcbcbc;
   clear: both;
@@ -218,28 +268,26 @@ p {
   margin-top: 40px;
   padding-top: 60px;
 }
-/* line 95, ../sass/hero.sass */
-#speakers h2 {
+/* line 124, ../sass/hero.sass */
+#speakers h2, #speakers p {
   text-align: center;
 }
 
-/* line 98, ../sass/hero.sass */
+/* line 127, ../sass/hero.sass */
 #organizers {
   border-top: 1px dotted #bcbcbc;
-  border-bottom: 1px dotted #bcbcbc;
   clear: both;
   display: block;
   margin-top: 40px;
   padding-top: 60px;
   margin-bottom: 40px;
-  padding-bottom: 60px;
 }
-/* line 107, ../sass/hero.sass */
+/* line 134, ../sass/hero.sass */
 #organizers h2 {
   text-align: center;
 }
 
-/* line 110, ../sass/hero.sass */
+/* line 137, ../sass/hero.sass */
 .opaque {
   opacity: 1 !important;
   -webkit-transition: all 1.2s ease-in-out;
@@ -249,7 +297,11 @@ p {
   transition: all 1.2s ease-in-out;
 }
 
-/* line 2, ../sass/_org_person.sass */
+/* line 1, ../sass/_org_person.sass */
+.org_person {
+  margin-bottom: 20px;
+}
+/* line 3, ../sass/_org_person.sass */
 .org_person img {
   float: right;
   border-top-left-radius: 500px;
@@ -263,9 +315,9 @@ p {
   height: 160px;
   width: 160px;
 }
-/* line 7, ../sass/_org_person.sass */
+/* line 8, ../sass/_org_person.sass */
 .org_person .avatar {
-  border: 5px solid #e5e5e5;
+  border: 5px solid white;
   float: right;
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
@@ -276,46 +328,167 @@ p {
   border-top-right-radius: 500px;
   border-bottom-right-radius: 500px;
 }
-/* line 11, ../sass/_org_person.sass */
+/* line 12, ../sass/_org_person.sass */
 .org_person a {
   color: #444444;
   text-decoration: none;
   display: block;
   overflow: hidden;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 17, ../sass/_org_person.sass */
+/* line 20, ../sass/_org_person.sass */
 .org_person h5 {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 160px;
   margin-right: 20px;
   float: right;
 }
 
-/* line 25, ../sass/_org_person.sass */
+/* line 28, ../sass/_org_person.sass */
+.org_person.rfloat a {
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 31, ../sass/_org_person.sass */
 .org_person.rfloat img, .org_person.rfloat .avatar, .org_person.rfloat h5 {
   float: left;
 }
-/* line 27, ../sass/_org_person.sass */
+/* line 33, ../sass/_org_person.sass */
 .org_person.rfloat h5 {
   margin: 0 0 0 20px;
 }
 
-/* line 30, ../sass/_org_person.sass */
+/* line 36, ../sass/_org_person.sass */
 .org_person:hover a {
-  background: #bcbcbc;
+  background: #e5e5e5;
 }
 
-/* line 33, ../sass/_org_person.sass */
-#berryexpand {
+/* line 39, ../sass/_org_person.sass */
+.lightbox {
   background: white;
-  width: 600px;
+  width: 800px;
   display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 120px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 40px;
+}
+/* line 48, ../sass/_org_person.sass */
+.lightbox .content {
+  float: left;
+  width: 560px;
+}
+/* line 51, ../sass/_org_person.sass */
+.lightbox img {
+  height: 220px;
+  width: 220px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  float: left;
+  margin-right: 20px;
+}
+/* line 57, ../sass/_org_person.sass */
+.lightbox h5 {
+  font-weight: 500;
+}
+/* line 60, ../sass/_org_person.sass */
+.lightbox .exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-indent: -99999px;
+  display: block;
+  background: transparent url(/images/icons/exit.png) 0 0 no-repeat;
+  background-size: 16px 16px;
+  height: 16px;
+  width: 16px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 72, ../sass/_org_person.sass */
+.lightbox .exit:hover {
+  background-color: #e5e5e5;
+}
+/* line 74, ../sass/_org_person.sass */
+.lightbox .exit:active {
+  background-color: #bcbcbc;
+}
+/* line 76, ../sass/_org_person.sass */
+.lightbox .web_site, .lightbox .github, .lightbox .twitter_link {
+  padding: 0 20px 0 40px;
+  line-height: 40px;
+  float: left;
+  clear: both;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 83, ../sass/_org_person.sass */
+.lightbox .web_site:hover, .lightbox .github:hover, .lightbox .twitter_link:hover {
+  background-color: #ba262b;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+}
+/* line 87, ../sass/_org_person.sass */
+.lightbox .web_site {
+  background: url(/images/icons/link.png) 10px center no-repeat;
+  background-size: 24px 24px;
+}
+/* line 90, ../sass/_org_person.sass */
+.lightbox .github {
+  background: url(/images/icons/github.png) 10px center no-repeat;
+  background-size: 24px 24px;
+}
+/* line 93, ../sass/_org_person.sass */
+.lightbox .twitter_link {
+  background: url(/images/icons/twitter_link.png) 10px center no-repeat;
+  background-size: 24px 24px;
 }
 
 /* line 27, ../sass/screen.sass */

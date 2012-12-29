@@ -5,12 +5,12 @@ h1, h2, h3 {
 
 /* line 4, ../sass/text.sass */
 h1 {
-  font-size: 88px;
+  font-size: 54px;
 }
 
 /* line 6, ../sass/text.sass */
 h2 {
-  font-size: 54px;
+  font-size: 88px;
   margin-bottom: 30px;
 }
 
