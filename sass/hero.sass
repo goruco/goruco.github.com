@@ -43,6 +43,12 @@
   h3
     font-weight: 600
     margin-bottom: 29px
+  #read_entire a
+    @include transition (all 0.3s ease-in-out)
+    padding: 0 40px 0 0
+    text-decoration: none
+    &:hover
+      text-decoration: underline
 .shader
   position: absolute
   width: 100%
@@ -138,6 +144,18 @@
   h2
     text-align: center
 
+#footer
+  border-top: 1px dotted $gray
+  margin-top: 40px
+  padding-top: 40px
+  margin-bottom: 60px
+  label
+    font-weight: normal
+  #foot_twit
+    float: right
+    width: 460px
+  #mc_embed_signup
+    width: 460px
 .opaque
   opacity: 1 !important
   @include transition (all 1.2s ease-in-out)
