@@ -1,0 +1,21 @@
+---
+layout: news-index
+title: News
+meta: Updates and News for GORUCO.
+author: Steve Berry
+---
+
+<div class="grid_12">
+  <h1>News</h1>
+
+  <ul id="news_list">
+  {% for post in site.categories.news %}
+    <li>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <p>{{ post.date | date_to_string }} by {{ post.author }} </p>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

@@ -9,7 +9,7 @@
   float: left;
 }
 /* line 7, ../sass/header.sass */
-#header #date {
+#header #date, #header #viewall {
   float: right;
   margin-top: 35px;
 }

@@ -1,15 +1,17 @@
 ---
-layout: big
+layout: alt
 ---
-
-<div class="fourteen columns" id="secret_header"></div>
-
-<div class='post'>
-  <h1>{{ page.title }}</h1>
-  <div class="clearfix"></div>
-  <div class="post-content">{{ content }}</div>
-  <div class='post-details'>
-    Created {{ page.date | date_to_string }} by {{ page.author }}.
+<div class="article_style">
+  <div class="grid_12">
+    <h1>News</h1>
+  </div>
+  <div class="grid_10">
+    <h2>{{ page.title }}</h2>
+    <div class="clearfix"></div>
+    <div class="post-content">{{ content }}</div>
+    <div class='post-details'>
+      Created {{ page.date | date_to_string }} by {{ page.author }}.
+    </div>
   </div>
 </div>
 

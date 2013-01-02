@@ -28,7 +28,7 @@ author: Steve Berry
 </div>
 
 <div class="grid_8" id="article">
-  {% for post in site.categories.articles limit:1 %}
+  {% for post in site.categories.news limit:1 %}
     <div class="constrain500">
       <h2>News</h2>
         <h3>{{ post.title | xml_escape }}</h3>
@@ -41,17 +41,17 @@ author: Steve Berry
 <div class="grid_4" id="previous_articles">
   <h3>Previous Articles</h3>
   <ul>
-    {% for post in site.categories.articles limit:5 %}
+    {% for post in site.categories.news limit:5 %}
       <li><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></li>
     {% endfor %}
-    <li id="all_articles"><a href="/articles">View All Articles…</a></li>
+    <li id="all_articles"><a href="/news">View All Articles…</a></li>
   </ul>
 </div>
 <div class="clear"></div>
 
 <div class="grid_12" id="sponsors">
   <h2>Sponsors</h2>
-  <p>We don't have any sponsors yet.</p>
+  <p>Intrested in becoming a sponsor? Get your brand in front of 250 of the best Ruby developers in the New York City area.<br/>Contact us at <a href="mailto:sponsors@goruco.com">sponsors@goruco.com</a></p>
 </div>
 
 <div class="grid_12" id="about">
@@ -89,7 +89,7 @@ author: Steve Berry
 
 <div class="grid_12" id="speakers">
   <h2>Speakers</h2>
-  <p>We don't have any speakers selected yet.</p>
+  <p>We don't have any speakers selected yet. Call for proposals opens Janauary 16<sup>th</sup>.</p>
 <!--   <ul>
     <li>
       <h4>Power Rake</h4>

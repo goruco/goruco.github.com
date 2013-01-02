@@ -1,0 +1,25 @@
+#header
+  height: 100px
+  #logo
+    margin-top: 25px
+    display: block
+    float: left
+  #date, #viewall, #returntoall
+    float: right
+    margin-top: 35px
+  #viewall, #returntoall
+    background: $red url(/images/icons/return.png) 16px 7px no-repeat
+    background-size: 32px 32px
+    +border-radius(100px)
+    padding: 10px 20px 10px 60px
+    display: block
+    text-decoration: none
+    @include transition (all 0.4s ease-in-out)
+    color: #fff
+    &:hover
+      background-color: $darkred
+    &:active
+      background-color: #000
+    p
+      margin-bottom: 0
+
