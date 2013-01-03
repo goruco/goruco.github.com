@@ -573,6 +573,11 @@ p {
 }
 
 /* line 2, ../sass/_articles.sass */
+.article_style .post-details {
+  margin-bottom: 40px;
+  display: block;
+}
+/* line 5, ../sass/_articles.sass */
 .article_style h2 {
   font-weight: 600;
   font-size: 34px;
