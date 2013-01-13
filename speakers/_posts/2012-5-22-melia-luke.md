@@ -5,6 +5,7 @@ meta: Organizing and Packaging Rich Javascript Apps with Ruby
 desc: More and more developers are facing the challenge of organizing and deploying complex client-side Javascript apps. It turns out there are some excellent solutions to this problem bubbling up in the Ruby ecosystem. I am responsible for two complex Javascript applications at Yapp, and in this micro-talk, I will share a solid solution to this problem using open source Ruby projects.
 image: /images/speakers/small/luke.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

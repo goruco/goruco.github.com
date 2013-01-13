@@ -5,6 +5,7 @@ meta: Deployment - the difference between the 1st month and the next 59
 desc: In this talk, we will reflect on the current state of deploying production systems, including build/deploy toolchains, and continuous deployment.
 image: /images/speakers/small/nic.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

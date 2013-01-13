@@ -12,16 +12,25 @@
 </div>
 
 <div class="grid_3">
-  <p>Sidebar goes here</p>
+{% case page.categories[0] %}
+
+  {% when 'speakers' %}
   <ul>
-    <li>
-      <h4>2013</h4>
-      <ul>
-        <li>Speaker Name</li>
-      </ul>
-    </li>
+    {% for year in site.years %}
+      <li>
+        <h4>{{ year }}</h4>
+        <ul>
+          {% for speaker in site.categories.speakers %}
+            {% if speaker.year == year %}
+              <li><a href="{{speaker.url}}">{{speaker.title}}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
   </ul>
 
+{% endcase %}
 </div>
 
   {% include footer.html %}

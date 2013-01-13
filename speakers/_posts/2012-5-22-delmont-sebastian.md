@@ -5,6 +5,7 @@ meta: Maps want to be free!
 desc: How to build your own online maps and free yourself from Google Maps limitations and fees.
 image: /images/speakers/small/seb.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

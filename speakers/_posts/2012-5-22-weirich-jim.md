@@ -5,6 +5,7 @@ meta: Power Rake
 desc: In this talk we will cover the "hidden" features of Rake that are not typically used by the casual Rake user.  We will learn about the convenience of file lists, dynamic generation of tasks, rule based file generation and more.
 image: /images/speakers/small/jim.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

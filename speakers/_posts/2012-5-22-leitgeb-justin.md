@@ -5,6 +5,7 @@ meta: Sensible Testing
 desc: Most Ruby programmers spend significant time writing, maintaining and troubleshooting automated tests. While recent discussions in the Ruby community have focused on whether we're writing too few or too many tests, this talk looks at how we can write "sensible" tests that allow our applications to deliver the most possible value with the least amount of development time and effort.
 image: /images/speakers/small/justin.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

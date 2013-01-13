@@ -5,6 +5,7 @@ meta: Hexagonal Rails
 desc: Matt explains why this happens, and shows you a way out, using a ports-and-adapters or hexagonal architecture to introduce a separation between your application's domain logic, and the Rails framework.
 image: /images/speakers/small/matt.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

@@ -5,6 +5,7 @@ meta: Maintaining Balance while Reducing Duplication Part II
 desc: This talk is a sequel to the talk David gave at RubyConf 2010, and will focus on refactorings that we rely on to reduce duplication, and their implications, both positive and negative.
 image: /images/speakers/small/david.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description

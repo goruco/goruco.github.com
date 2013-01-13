@@ -6,6 +6,7 @@ meta: Building Developers Lessons Learned from Hungry Academy
 desc: Here's the quick story of what's worked, what hasn't, and the lessons learned as we try to solve the developer shortage.
 image: /images/speakers/small/jeff.jpg
 author: GORUCO
+year: 2012
 ---
 
 ##Talk Description
