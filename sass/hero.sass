@@ -24,11 +24,37 @@
 #prompt
   border-bottom: 1px dotted $gray
   margin-bottom: 40px
+  a
+    display: block
+    padding: 5px 20px
+    text-decoration: none
+    @include transition (all 0.3s ease-in-out)
+    background: url(/images/icons/wedge.png) 450px 14px no-repeat
+    background-size: 7px 12px
+    &:hover
+      background-color: $red
+      color: #fff
+  #key_dates, #get_involved
+    margin: 15px 20px 10px 20px
+    padding-left: 33px
+  #key_dates
+    background: transparent url(/images/icons/cal.png) 0 0 no-repeat
+    background-size: 24px 24px
+  #get_involved
+    background: transparent url(/images/icons/badge.png) 0 0 no-repeat
+    background-size: 24px 24px
+  ul
+    li
+      border-bottom: 1px dotted $lightgray
+      font-size: 21px
+      line-height: 29px
+      &:last-child
+        border-bottom: none
+      &:first-child
+        border-top: 1px dotted $lightgray
+    .bump
+      padding: 5px 20px
   .half
-    height: 100px
-    @include transition (all 1.2s ease-in-out)
-    &.tall
-      height: 100px
     p
       opacity: 1
       text-align: center
