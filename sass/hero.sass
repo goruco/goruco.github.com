@@ -32,8 +32,7 @@
     background: url(/images/icons/wedge.png) 450px 14px no-repeat
     background-size: 7px 12px
     &:hover
-      background-color: $red
-      color: #fff
+      background-color: $lightgray
   #key_dates, #get_involved
     margin: 15px 20px 10px 20px
     padding-left: 33px
@@ -43,6 +42,23 @@
   #get_involved
     background: transparent url(/images/icons/badge.png) 0 0 no-repeat
     background-size: 24px 24px
+  input
+    display: block
+    @include transition (all 0.3s ease-in-out)
+    background: url(/images/icons/red-email.png) 443px 11px no-repeat
+    background-size: 16px 16px
+    color: $red
+    padding: 5px 20px
+    width: 430px
+    margin: 0
+    font-size: 21px
+    line-height: 29px
+    border: none
+    font-family: "proxima-nova"
+    -webkit-font-smoothing: antialiased
+    &:hover
+      background-color: $lightgray
+
   ul
     li
       border-bottom: 1px dotted $lightgray
@@ -173,8 +189,18 @@
 #footer
   border-top: 1px dotted $gray
   margin-top: 40px
-  padding-top: 40px
+  padding-top: 60px
   margin-bottom: 60px
+  p, a
+    color: $gray
+    margin-bottom: 0
+    font-size: 18px
+  a
+    margin-right: 20px
+    &:hover
+      text-decoration: none
+  p:last-child
+    margin-bottom: 20px
   label
     font-weight: normal
   #foot_twit
