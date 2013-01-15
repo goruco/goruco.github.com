@@ -1,23 +1,16 @@
 ---
-layout: alt
+layout: news-index
 title: Organizers
 ---
 
+<h1>Organizers</h1>
 {% for post in site.categories.organizers %}
-<div class="grid_6 org_person {% cycle '', 'rfloat' %}">
-  <a href="#" id="berry">
-    <div class="avatar">
-      <img src="{{ post.image }}" alt="{{ post.title }}"/>
-    </div>
-    <h5>{{ post.title | xml_escape }}</h5>
-  </a>
-</div>
 
-<div class="lightbox" id="berryexpand"style="display: none">
-  <img src="{{ post.image }}" alt="{{ post.title }}"/>
+
+<div class="org_person_big">
+  <img src="{{ post.image }}" alt="{{ post.title }}" id="{{ post.github }}"/>
   <div class="content">
     <h5>{{ post.title | xml_escape }}</h5>
-    <a href="#" class="exit">Exit</a>
     <p>{{ post.desc }}</p>
     <a href="http://{{ post.link }}" target="blank" class="web_site">{{ post.link }}</a>
     <a href="http://github.com/{{ post.github }}" target="blank" class="github">{{ post.github }}</a>

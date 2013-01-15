@@ -3,12 +3,13 @@
   img
     float: right
     +border-radius(500px)
-    height: 160px
-    width: 160px
+    height: 120px
+    width: 120px
   .avatar
     border: 5px solid #fff
     float: right
     +border-radius(500px)
+    @include transition (all 0.5s ease-in-out)
   a
     color: $body
     text-decoration: none
@@ -33,18 +34,15 @@
   h5
     margin: 0 0 0 20px
 
-.org_person:hover a
-  background: $lightgray
-
-.lightbox
-  background: #fff
-  width: 800px
+.org_person:hover .avatar
+  border: 5px solid $red
+.org_person_big
   display: block
-  +border-radius(5px)
-  border-top-left-radius: 120px
-  padding: 20px
+  overflow: hidden
+
   position: relative
   padding-bottom: 40px
+  margin-bottom: 40px
   .content
     float: left
     width: 560px

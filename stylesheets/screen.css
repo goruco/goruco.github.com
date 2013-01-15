@@ -21,14 +21,14 @@
 }
 
 /* line 1, ../sass/text.sass */
-h1, h2, h3, .lightbox h5 {
+h1, h2, h3, .org_person_big h5 {
   font-weight: 100;
 }
 
 /* line 4, ../sass/text.sass */
 h1 {
   font-size: 88px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 /* line 7, ../sass/text.sass */
@@ -38,7 +38,7 @@ h2 {
 }
 
 /* line 10, ../sass/text.sass */
-h3, .lightbox h5 {
+h3, .org_person_big h5 {
   font-size: 34px;
   font-weight: 600;
   margin-bottom: 29px;
@@ -182,7 +182,7 @@ p {
   position: relative;
 }
 /* line 43, ../sass/hero.sass */
-#article h3, #article .lightbox h5, .lightbox #article h5 {
+#article h3, #article .org_person_big h5, .org_person_big #article h5 {
   font-weight: 600;
   margin-bottom: 29px;
 }
@@ -217,7 +217,7 @@ p {
   margin-top: 140px;
 }
 /* line 62, ../sass/hero.sass */
-#previous_articles h3, #previous_articles .lightbox h5, .lightbox #previous_articles h5 {
+#previous_articles h3, #previous_articles .org_person_big h5, .org_person_big #previous_articles h5 {
   font-size: 21px;
 }
 /* line 64, ../sass/hero.sass */
@@ -393,8 +393,8 @@ p {
   border-bottom-left-radius: 500px;
   border-top-right-radius: 500px;
   border-bottom-right-radius: 500px;
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
 }
 /* line 8, ../sass/_org_person.sass */
 .org_person .avatar {
@@ -408,8 +408,13 @@ p {
   border-bottom-left-radius: 500px;
   border-top-right-radius: 500px;
   border-bottom-right-radius: 500px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-/* line 12, ../sass/_org_person.sass */
+/* line 13, ../sass/_org_person.sass */
 .org_person a {
   color: #444444;
   text-decoration: none;
@@ -425,7 +430,7 @@ p {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 20, ../sass/_org_person.sass */
+/* line 21, ../sass/_org_person.sass */
 .org_person h5 {
   font-size: 24px;
   font-weight: normal;
@@ -434,52 +439,42 @@ p {
   float: right;
 }
 
-/* line 28, ../sass/_org_person.sass */
+/* line 29, ../sass/_org_person.sass */
 .org_person.rfloat a {
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 31, ../sass/_org_person.sass */
+/* line 32, ../sass/_org_person.sass */
 .org_person.rfloat img, .org_person.rfloat .avatar, .org_person.rfloat h5 {
   float: left;
 }
-/* line 33, ../sass/_org_person.sass */
+/* line 34, ../sass/_org_person.sass */
 .org_person.rfloat h5 {
   margin: 0 0 0 20px;
 }
 
-/* line 36, ../sass/_org_person.sass */
-.org_person:hover a {
-  background: #e5e5e5;
+/* line 37, ../sass/_org_person.sass */
+.org_person:hover .avatar {
+  border: 5px solid #ba262b;
 }
 
 /* line 39, ../sass/_org_person.sass */
-.lightbox {
-  background: white;
-  width: 800px;
+.org_person_big {
   display: block;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 120px;
-  padding: 20px;
+  overflow: hidden;
   position: relative;
   padding-bottom: 40px;
+  margin-bottom: 40px;
 }
-/* line 48, ../sass/_org_person.sass */
-.lightbox .content {
+/* line 46, ../sass/_org_person.sass */
+.org_person_big .content {
   float: left;
   width: 560px;
 }
-/* line 51, ../sass/_org_person.sass */
-.lightbox img {
+/* line 49, ../sass/_org_person.sass */
+.org_person_big img {
   height: 220px;
   width: 220px;
   border-top-left-radius: 500px;
@@ -493,12 +488,12 @@ p {
   float: left;
   margin-right: 20px;
 }
-/* line 57, ../sass/_org_person.sass */
-.lightbox h5 {
+/* line 55, ../sass/_org_person.sass */
+.org_person_big h5 {
   font-weight: 500;
 }
-/* line 60, ../sass/_org_person.sass */
-.lightbox .exit {
+/* line 58, ../sass/_org_person.sass */
+.org_person_big .exit {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -522,16 +517,16 @@ p {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-/* line 72, ../sass/_org_person.sass */
-.lightbox .exit:hover {
+/* line 70, ../sass/_org_person.sass */
+.org_person_big .exit:hover {
   background-color: #e5e5e5;
 }
-/* line 74, ../sass/_org_person.sass */
-.lightbox .exit:active {
+/* line 72, ../sass/_org_person.sass */
+.org_person_big .exit:active {
   background-color: #bcbcbc;
 }
-/* line 76, ../sass/_org_person.sass */
-.lightbox .web_site, .lightbox .github, .lightbox .twitter_link {
+/* line 74, ../sass/_org_person.sass */
+.org_person_big .web_site, .org_person_big .github, .org_person_big .twitter_link {
   padding: 0 20px 0 40px;
   line-height: 40px;
   float: left;
@@ -543,8 +538,8 @@ p {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 83, ../sass/_org_person.sass */
-.lightbox .web_site:hover, .lightbox .github:hover, .lightbox .twitter_link:hover {
+/* line 81, ../sass/_org_person.sass */
+.org_person_big .web_site:hover, .org_person_big .github:hover, .org_person_big .twitter_link:hover {
   background-color: #ba262b;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -556,18 +551,18 @@ p {
   border-bottom-right-radius: 3px;
   color: white;
 }
-/* line 87, ../sass/_org_person.sass */
-.lightbox .web_site {
+/* line 85, ../sass/_org_person.sass */
+.org_person_big .web_site {
   background: url(/images/icons/link.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
-/* line 90, ../sass/_org_person.sass */
-.lightbox .github {
+/* line 88, ../sass/_org_person.sass */
+.org_person_big .github {
   background: url(/images/icons/github.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
-/* line 93, ../sass/_org_person.sass */
-.lightbox .twitter_link {
+/* line 91, ../sass/_org_person.sass */
+.org_person_big .twitter_link {
   background: url(/images/icons/twitter_link.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
@@ -584,7 +579,7 @@ p {
 }
 
 /* line 2, ../sass/_news_list.sass */
-#news_list h3, #news_list .lightbox h5, .lightbox #news_list h5, #news_list p {
+#news_list h3, #news_list .org_person_big h5, .org_person_big #news_list h5, #news_list p {
   margin-bottom: 0;
 }
 /* line 4, ../sass/_news_list.sass */
