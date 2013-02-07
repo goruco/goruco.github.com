@@ -1,0 +1,41 @@
+{% include heading.html %}
+
+<div class="container_12">
+
+<a href="/" class="grid_12" id="banner">
+  <p>GORUCO is a one-day event that will take place in New York City on June 8, 2013. It is a fun technical conference aimed at highly motivated programmers interested in all things Ruby.</p>
+</a>
+
+<div class="grid_12" id="header">
+  <a href="/" id="logo"><img src="/images/icons/goruco.png" height=43 width=160/></a>
+  <a href="/speakers" id="viewall"><p>View All Speakers</p></a>
+</div>
+
+<div class="grid_9"
+  {{ content }}
+</div>
+
+<div class="grid_3" id="sidebar">
+{% case page.categories[0] %}
+
+  {% when 'speakers' %}
+  <ul>
+    {% for year in site.years %}
+      <li>
+        <h4>{{ year }}</h4>
+        <ul class="sub-list">
+          {% for speaker in site.categories.speakers %}
+            {% if speaker.year == year %}
+              <li><a href="{{speaker.url}}">{{speaker.title}}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+{% endcase %}
+</div>
+
+<div class="container_12">
+  {% include footer.html %}
+</div>
