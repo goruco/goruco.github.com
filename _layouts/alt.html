@@ -15,7 +15,7 @@
   {{ content }}
 </div>
 
-<div class="grid_3">
+<div class="grid_3" id="sidebar">
 {% case page.categories[0] %}
 
   {% when 'speakers' %}
@@ -23,7 +23,7 @@
     {% for year in site.years %}
       <li>
         <h4>{{ year }}</h4>
-        <ul>
+        <ul class="sub-list">
           {% for speaker in site.categories.speakers %}
             {% if speaker.year == year %}
               <li><a href="{{speaker.url}}">{{speaker.title}}</a></li>
@@ -33,9 +33,9 @@
       </li>
     {% endfor %}
   </ul>
-
 {% endcase %}
 </div>
+
 <div class="container_12">
   {% include footer.html %}
 </div>
