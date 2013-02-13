@@ -7,28 +7,20 @@ meta: GORUCO Speaker line-up.
 <div class="grid_12">
   <h1>Speakers</h1>
 
-  <h3>2012</h3>
-  <ul class="speaker_list">
-  {% for post in site.categories.news %}
-    <li>
-      <h3>
-        <a href="{{ post.url }}">Put the Speakers name here!</a>
-      </h3>
-      <p>Put the title of the talk here.</p>
-    </li>
-  {% endfor %}
-  </ul>
+  {% for year in site.years %}
+    <h3>{{ year }}</h3>
 
-  <h3>2011</h3>
-  <ul class="speaker_list">
-  {% for post in site.categories.news %}
-    <li>
-      <h3>
-        <a href="{{ post.url }}">Put the Speakers name here!</a>
-      </h3>
-      <p>Put the title of the talk here.</p>
-    </li>
+    <ul class="speaker_list">
+    {% for speaker in site.categories.speakers %}
+      {% if speaker.year == year %}
+        <li>
+          <h3><a href="{{ speaker.url }}">{{ speaker.title }}</a></h3>
+          <p>{{ speaker.meta }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
   {% endfor %}
-  </ul>
+
 </div>
 
