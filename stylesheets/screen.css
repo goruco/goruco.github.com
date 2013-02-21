@@ -33,7 +33,7 @@ h1 {
 
 /* line 7, ../sass/_text.sass */
 h2 {
-  font-size: 88px;
+  font-size: 60px;
   margin-bottom: 30px;
 }
 
@@ -82,6 +82,11 @@ ul li {
   line-height: 29px;
   list-style: disc;
   margin-left: 29px;
+}
+
+/* line 39, ../sass/_text.sass */
+.big h2 {
+  font-size: 88px;
 }
 
 /* line 1, ../sass/_header.sass */
@@ -139,7 +144,7 @@ ul li {
   margin-bottom: 0;
 }
 
-/* line 1, ../sass/hero.sass */
+/* line 1, ../sass/_hero.sass */
 #hero {
   width: 940px;
   height: 499px;
@@ -147,7 +152,7 @@ ul li {
   background: transparent url(/images/hero/hero.jpg) 0 0 no-repeat;
   position: relative;
 }
-/* line 7, ../sass/hero.sass */
+/* line 7, ../sass/_hero.sass */
 #hero h1 {
   color: white;
   font-weight: 100;
@@ -164,7 +169,7 @@ ul li {
   -o-transition: all 1.2s ease-in-out;
   transition: all 1.2s ease-in-out;
 }
-/* line 18, ../sass/hero.sass */
+/* line 18, ../sass/_hero.sass */
 #hero h1.magic {
   text-shadow: none;
   color: white;
@@ -172,12 +177,12 @@ ul li {
   margin-top: 340px;
 }
 
-/* line 24, ../sass/hero.sass */
+/* line 24, ../sass/_hero.sass */
 #prompt {
   border-bottom: 1px dotted #bcbcbc;
   margin-bottom: 40px;
 }
-/* line 27, ../sass/hero.sass */
+/* line 27, ../sass/_hero.sass */
 #prompt a {
   display: block;
   padding: 5px 20px;
@@ -190,26 +195,26 @@ ul li {
   background: url(/images/icons/wedge.png) 450px 14px no-repeat;
   background-size: 7px 12px;
 }
-/* line 34, ../sass/hero.sass */
+/* line 34, ../sass/_hero.sass */
 #prompt a:hover {
   background-color: #e5e5e5;
 }
-/* line 36, ../sass/hero.sass */
+/* line 36, ../sass/_hero.sass */
 #prompt #key_dates, #prompt #get_involved {
   margin: 15px 20px 10px 20px;
   padding-left: 33px;
 }
-/* line 39, ../sass/hero.sass */
+/* line 39, ../sass/_hero.sass */
 #prompt #key_dates {
   background: transparent url(/images/icons/cal.png) 0 0 no-repeat;
   background-size: 24px 24px;
 }
-/* line 42, ../sass/hero.sass */
+/* line 42, ../sass/_hero.sass */
 #prompt #get_involved {
   background: transparent url(/images/icons/badge.png) 0 0 no-repeat;
   background-size: 24px 24px;
 }
-/* line 45, ../sass/hero.sass */
+/* line 45, ../sass/_hero.sass */
 #prompt input {
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
@@ -229,15 +234,15 @@ ul li {
   font-family: "proxima-nova";
   -webkit-font-smoothing: antialiased;
 }
-/* line 59, ../sass/hero.sass */
+/* line 59, ../sass/_hero.sass */
 #prompt input:hover {
   background-color: #e5e5e5;
 }
-/* line 62, ../sass/hero.sass */
+/* line 62, ../sass/_hero.sass */
 #prompt ul {
   margin: 0;
 }
-/* line 64, ../sass/hero.sass */
+/* line 64, ../sass/_hero.sass */
 #prompt ul li {
   margin: 0;
   list-style: none;
@@ -245,43 +250,43 @@ ul li {
   font-size: 21px;
   line-height: 29px;
 }
-/* line 70, ../sass/hero.sass */
+/* line 70, ../sass/_hero.sass */
 #prompt ul li:last-child {
   border-bottom: none;
 }
-/* line 72, ../sass/hero.sass */
+/* line 72, ../sass/_hero.sass */
 #prompt ul li:first-child {
   border-top: 1px dotted #e5e5e5;
 }
-/* line 74, ../sass/hero.sass */
+/* line 74, ../sass/_hero.sass */
 #prompt ul .bump {
   padding: 5px 20px;
 }
-/* line 77, ../sass/hero.sass */
+/* line 77, ../sass/_hero.sass */
 #prompt .half p {
   opacity: 1;
   text-align: center;
   margin-top: 35px;
 }
 
-/* line 81, ../sass/hero.sass */
+/* line 81, ../sass/_hero.sass */
 .constrain500 {
   height: 500px;
   overflow: hidden;
   position: relative;
 }
 
-/* line 85, ../sass/hero.sass */
+/* line 85, ../sass/_hero.sass */
 #article {
   overflow: hidden;
   position: relative;
 }
-/* line 88, ../sass/hero.sass */
+/* line 88, ../sass/_hero.sass */
 #article h3, #article .org_person_big h5, .org_person_big #article h5 {
   font-weight: 600;
   margin-bottom: 29px;
 }
-/* line 91, ../sass/hero.sass */
+/* line 91, ../sass/_hero.sass */
 #article #read_entire a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -291,12 +296,12 @@ ul li {
   padding: 0 40px 0 0;
   text-decoration: none;
 }
-/* line 95, ../sass/hero.sass */
+/* line 95, ../sass/_hero.sass */
 #article #read_entire a:hover {
   text-decoration: underline;
 }
 
-/* line 97, ../sass/hero.sass */
+/* line 97, ../sass/_hero.sass */
 .shader {
   position: absolute;
   width: 100%;
@@ -307,31 +312,31 @@ ul li {
   background: url(/images/icons/gradient.png) 0 0 repeat-x;
 }
 
-/* line 105, ../sass/hero.sass */
+/* line 105, ../sass/_hero.sass */
 #previous_articles {
   margin-top: 140px;
 }
-/* line 107, ../sass/hero.sass */
+/* line 107, ../sass/_hero.sass */
 #previous_articles h3, #previous_articles .org_person_big h5, .org_person_big #previous_articles h5 {
   font-size: 21px;
 }
-/* line 109, ../sass/hero.sass */
+/* line 109, ../sass/_hero.sass */
 #previous_articles ul {
   margin: 0;
   padding: 0;
 }
-/* line 112, ../sass/hero.sass */
+/* line 112, ../sass/_hero.sass */
 #previous_articles ul li {
   margin: 0;
   list-style: none;
   padding: 0 10px 0 0;
   border-bottom: 1px dotted #e5e5e5;
 }
-/* line 117, ../sass/hero.sass */
+/* line 117, ../sass/_hero.sass */
 #previous_articles ul li:last-child {
   border-bottom: none;
 }
-/* line 119, ../sass/hero.sass */
+/* line 119, ../sass/_hero.sass */
 #previous_articles ul li a {
   display: block;
   padding: 15px 0;
@@ -343,81 +348,81 @@ ul li {
   transition: background 0.3s ease-in-out;
   background: url(/images/icons/wedge.png) 310px 19px no-repeat;
 }
-/* line 125, ../sass/hero.sass */
+/* line 125, ../sass/_hero.sass */
 #previous_articles ul li a:hover {
   background: url(/images/icons/wedge.png) 281px 19px no-repeat;
   background-size: 7px 12px;
   text-decoration: underline;
 }
-/* line 129, ../sass/hero.sass */
+/* line 129, ../sass/_hero.sass */
 #previous_articles ul #all_articles {
   background: transparent url(/images/icons/read.png) 0 7px no-repeat;
   background-size: 32px 32px;
 }
-/* line 132, ../sass/hero.sass */
+/* line 132, ../sass/_hero.sass */
 #previous_articles ul #all_articles a {
   padding-left: 40px;
 }
 
-/* line 135, ../sass/hero.sass */
+/* line 135, ../sass/_hero.sass */
 #sponsors {
   margin: 30px 0;
   padding: 30px 0;
   border-top: 1px dotted #bcbcbc;
   border-bottom: 1px dotted #bcbcbc;
 }
-/* line 140, ../sass/hero.sass */
+/* line 140, ../sass/_hero.sass */
 #sponsors h2 {
   margin: 0 0 40px 0;
   text-align: center;
 }
-/* line 143, ../sass/hero.sass */
+/* line 143, ../sass/_hero.sass */
 #sponsors p {
   text-align: center;
   margin-left: 130px;
   margin-right: 130px;
 }
 
-/* line 148, ../sass/hero.sass */
+/* line 148, ../sass/_hero.sass */
 #about {
   padding: 40px 10px;
   border-bottom: 1px dotted #bcbcbc;
   margin-bottom: 40px;
 }
-/* line 152, ../sass/hero.sass */
+/* line 152, ../sass/_hero.sass */
 #about h2, #about p {
   text-align: center;
 }
-/* line 154, ../sass/hero.sass */
+/* line 154, ../sass/_hero.sass */
 #about p {
   margin-left: 130px;
   margin-right: 130px;
 }
 
-/* line 159, ../sass/hero.sass */
+/* line 159, ../sass/_hero.sass */
 #map h2 {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
-/* line 165, ../sass/hero.sass */
+/* line 165, ../sass/_hero.sass */
 #where, #when, #party {
   margin-bottom: 50px;
 }
-/* line 167, ../sass/hero.sass */
+/* line 167, ../sass/_hero.sass */
 #where h4, #when h4, #party h4 {
   margin-top: 20px;
   border-bottom: 1px dotted #e5e5e5;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 172, ../sass/hero.sass */
+/* line 172, ../sass/_hero.sass */
 #where p, #when p, #party p {
   margin-bottom: 0;
 }
 
-/* line 175, ../sass/hero.sass */
+/* line 175, ../sass/_hero.sass */
 #speakers {
   border-top: 1px dotted #bcbcbc;
   clear: both;
@@ -425,65 +430,90 @@ ul li {
   margin-top: 40px;
   padding-top: 60px;
 }
-/* line 181, ../sass/hero.sass */
+/* line 181, ../sass/_hero.sass */
 #speakers h2, #speakers p {
   text-align: center;
 }
+/* line 184, ../sass/_hero.sass */
+#speakers #all_speakers {
+  overflow: hidden;
+  display: block;
+  border-top: 1px dotted #e5e5e5;
+  margin-top: 40px;
+  text-decoration: none;
+  background: white url(/images/icons/wedge.png) 651px 28px no-repeat;
+  background-size: 7px 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* line 193, ../sass/_hero.sass */
+#speakers #all_speakers:hover {
+  background: #e5e5e5 url(/images/icons/wedge.png) 651px 28px no-repeat;
+  background-size: 7px 12px;
+}
+/* line 196, ../sass/_hero.sass */
+#speakers #all_speakers p {
+  margin: 0;
+  padding: 20px 0;
+}
 
-/* line 184, ../sass/hero.sass */
+/* line 200, ../sass/_hero.sass */
 #organizers {
   border-top: 1px dotted #bcbcbc;
   clear: both;
   display: block;
-  margin-top: 40px;
+  margin-top: 0;
   padding-top: 60px;
   margin-bottom: 40px;
 }
-/* line 191, ../sass/hero.sass */
+/* line 207, ../sass/_hero.sass */
 #organizers h2 {
   text-align: center;
 }
 
-/* line 194, ../sass/hero.sass */
+/* line 210, ../sass/_hero.sass */
 #footer {
   border-top: 1px dotted #bcbcbc;
   margin-top: 40px;
   padding-top: 60px;
   margin-bottom: 60px;
 }
-/* line 199, ../sass/hero.sass */
+/* line 215, ../sass/_hero.sass */
 #footer p, #footer a {
   color: #bcbcbc;
   margin-bottom: 0;
   font-size: 18px;
 }
-/* line 203, ../sass/hero.sass */
+/* line 219, ../sass/_hero.sass */
 #footer a {
   margin-right: 20px;
 }
-/* line 205, ../sass/hero.sass */
+/* line 221, ../sass/_hero.sass */
 #footer a:hover {
   text-decoration: none;
 }
-/* line 207, ../sass/hero.sass */
+/* line 223, ../sass/_hero.sass */
 #footer p:last-child {
   margin-bottom: 20px;
 }
-/* line 209, ../sass/hero.sass */
+/* line 225, ../sass/_hero.sass */
 #footer label {
   font-weight: normal;
 }
-/* line 211, ../sass/hero.sass */
+/* line 227, ../sass/_hero.sass */
 #footer #foot_twit {
   float: right;
   width: 460px;
 }
-/* line 214, ../sass/hero.sass */
+/* line 230, ../sass/_hero.sass */
 #footer #mc_embed_signup {
   width: 460px;
 }
 
-/* line 216, ../sass/hero.sass */
+/* line 232, ../sass/_hero.sass */
 .opaque {
   opacity: 1 !important;
   -webkit-transition: all 1.2s ease-in-out;
@@ -726,7 +756,11 @@ ul li {
   text-decoration: underline;
 }
 
-/* line 21, ../sass/_lists.sass */
+/* line 20, ../sass/_lists.sass */
+.speaker_list {
+  margin-bottom: 40px;
+}
+/* line 22, ../sass/_lists.sass */
 .speaker_list p {
   color: #444444;
 }

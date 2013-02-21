@@ -181,11 +181,27 @@
   h2, p
     text-align: center
 
+  #all_speakers
+    overflow: hidden
+    display: block
+    border-top: 1px dotted $lightgray
+    margin-top: 40px
+    text-decoration: none
+    background: #fff url(/images/icons/wedge.png) 651px 28px no-repeat
+    background-size: 7px 12px
+    @include transition (all 0.4s ease-in-out)
+    &:hover
+      background: $lightgray url(/images/icons/wedge.png) 651px 28px no-repeat
+      background-size: 7px 12px
+    p
+      margin: 0
+      padding: 20px 0
+
 #organizers
   border-top: 1px dotted $gray
   clear: both
   display: block
-  margin-top: 40px
+  margin-top: 0
   padding-top: 60px
   margin-bottom: 40px
   h2
