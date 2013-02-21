@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: speaker-header
 title: Reject Conf
-meta: The tail end of GORUCO 2011
+meta: Reject Conf
+desc: Quick lightning talks.
 author: GORUCO
+year: 2011
 ---
 
 
