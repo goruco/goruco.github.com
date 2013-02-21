@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: speaker-header
 title: Justin Leitgeb
 meta: Sensible Testing
 desc: Most Ruby programmers spend significant time writing, maintaining and troubleshooting automated tests. While recent discussions in the Ruby community have focused on whether we're writing too few or too many tests, this talk looks at how we can write "sensible" tests that allow our applications to deliver the most possible value with the least amount of development time and effort.
@@ -8,7 +8,9 @@ author: GORUCO
 year: 2012
 ---
 
-##Talk Description
+<iframe src="http://player.vimeo.com/video/45096253?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+###Talk Description
 
 Most Ruby programmers spend significant time writing, maintaining and troubleshooting automated tests. While recent discussions in the Ruby community have focused on whether we're writing too few or too many tests, this talk looks at how we can write "sensible" tests that allow our applications to deliver the most possible value with the least amount of development time and effort.
 
@@ -18,6 +20,6 @@ This talk will discuss how to test sensibly by trying to answer the following qu
 * What are signs that a test suite is becoming too large, and how do we prevent this from happening?
 * In this talk I hope to also demonstrate how writing tests before implementing code helps to shape the architecture of an object-oriented system in a way that may not be achieved by writing tests after a system has been written.
 
-##Bio
+###Bio
 
 Justin has been programming for more than 15 years, with the last five primarily in Ruby. He has an undergraduate degree in Computer Science and graduate degrees in Sociology and Spanish Literature. He ties these interests together as CEO and Lead Developer of Stack Builders, a Ruby consultancy based in New York and Colombia, South America.

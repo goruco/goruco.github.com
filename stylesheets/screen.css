@@ -39,7 +39,7 @@ h2 {
 
 /* line 10, ../sass/_text.sass */
 h3, .org_person_big h5 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 29px;
 }
@@ -693,30 +693,42 @@ ul li {
   font-size: 34px;
 }
 
-/* line 2, ../sass/_news_list.sass */
-#news_list h3, #news_list .org_person_big h5, .org_person_big #news_list h5, #news_list p {
+/* line 1, ../sass/_lists.sass */
+#news_list, .speaker_list {
+  margin: 0;
+  list-style: none;
+}
+/* line 4, ../sass/_lists.sass */
+#news_list h3, #news_list .org_person_big h5, .org_person_big #news_list h5, #news_list p, .speaker_list h3, .speaker_list .org_person_big h5, .org_person_big .speaker_list h5, .speaker_list p {
   margin-bottom: 0;
 }
-/* line 4, ../sass/_news_list.sass */
-#news_list li {
+/* line 6, ../sass/_lists.sass */
+#news_list li, .speaker_list li {
+  margin: 0;
+  list-style: none;
   padding: 20px 0;
   border-bottom: 1px dotted #bcbcbc;
 }
-/* line 7, ../sass/_news_list.sass */
-#news_list li:last-child {
+/* line 11, ../sass/_lists.sass */
+#news_list li:last-child, .speaker_list li:last-child {
   border: none;
 }
-/* line 9, ../sass/_news_list.sass */
-#news_list p {
+/* line 13, ../sass/_lists.sass */
+#news_list p, .speaker_list p {
   color: #bcbcbc;
 }
-/* line 11, ../sass/_news_list.sass */
-#news_list a {
+/* line 15, ../sass/_lists.sass */
+#news_list a, .speaker_list a {
   text-decoration: none;
 }
-/* line 13, ../sass/_news_list.sass */
-#news_list a:hover {
+/* line 17, ../sass/_lists.sass */
+#news_list a:hover, .speaker_list a:hover {
   text-decoration: underline;
+}
+
+/* line 21, ../sass/_lists.sass */
+.speaker_list p {
+  color: #444444;
 }
 
 /* line 1, ../sass/_banner.sass */
@@ -743,19 +755,48 @@ ul li {
   padding: 10px 20px;
 }
 
-/* line 31, ../sass/screen.sass */
+/* line 2, ../sass/_sidebar.sass */
+#sidebar ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 5, ../sass/_sidebar.sass */
+#sidebar ul li {
+  list-style: none;
+  margin: 0;
+}
+/* line 8, ../sass/_sidebar.sass */
+#sidebar ul ul.sub-list {
+  margin-bottom: 20px;
+}
+
+/* line 2, ../sass/_speaker_page.sass */
+#speaker_page h1 {
+  margin: 0;
+  font-size: 70px;
+}
+/* line 5, ../sass/_speaker_page.sass */
+#speaker_page h2 {
+  font-size: 50px;
+}
+/* line 7, ../sass/_speaker_page.sass */
+#speaker_page iframe {
+  margin-bottom: 20px;
+}
+
+/* line 33, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 39, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }

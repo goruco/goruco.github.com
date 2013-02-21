@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: speaker-header
 title: Dr. Nic Williams
 meta: Deployment - the difference between the 1st month and the next 59
 desc: In this talk, we will reflect on the current state of deploying production systems, including build/deploy toolchains, and continuous deployment.
@@ -8,7 +8,9 @@ author: GORUCO
 year: 2012
 ---
 
-##Talk Description
+<iframe src="http://player.vimeo.com/video/44807823?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+###Talk Description
 
 When you type "cap deploy", "ey deploy", or "git push heroku master" your intent is to deploy your local application source to your running system on the Internet. That seems to be the point - you changed your code, and you want to Just Ship It. But what is your actual objective? Is it really to just "deploy app code changes"? Is this "app-centric" view and user experience satisfactory?
 

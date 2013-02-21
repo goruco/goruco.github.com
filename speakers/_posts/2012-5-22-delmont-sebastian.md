@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: speaker-header
 title: Sebastian Delmont
 meta: Maps want to be free!
 desc: How to build your own online maps and free yourself from Google Maps limitations and fees.
@@ -8,7 +8,9 @@ author: GORUCO
 year: 2012
 ---
 
-##Talk Description
+<iframe src="http://player.vimeo.com/video/45132112?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+###Talk Description
 
 How to build your own online maps and free yourself from Google Maps limitations and fees.
 
@@ -18,6 +20,6 @@ The idea of this micro talk is to shine some light on those fees and limitations
 
 This talk has very little ruby in it, but it's probably highly relevant to the audience, given the overlap between web applications in ruby and web applications with maps.
 
-##Bio
+###Bio
 
 New Yorker, geek, father, cyclist, venezuelan. Building streeteasy.com with Rails. Founded loquesea.com. Coded Swift, HootSuite, Gilt & GroupMe for Android.

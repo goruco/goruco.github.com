@@ -1,5 +1,5 @@
 ---
-layout: alt
+layout: speaker-index
 title: Speakers
 meta: GORUCO Speaker line-up.
 ---
@@ -14,8 +14,8 @@ meta: GORUCO Speaker line-up.
     {% for speaker in site.categories.speakers %}
       {% if speaker.year == year %}
         <li>
-          <h3><a href="{{ speaker.url }}">{{ speaker.title }}</a></h3>
-          <p>{{ speaker.meta }}</p>
+          <h3><a href="{{ speaker.url }}">{{ speaker.meta }}</a></h3>
+          <p>{{ speaker.title }}</p>
         </li>
       {% endif %}
     {% endfor %}
