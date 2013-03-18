@@ -105,11 +105,40 @@ ul li {
   margin-top: 35px;
 }
 /* line 10, ../sass/_header.sass */
+#header #buynow {
+  margin-top: 33px;
+  margin-left: 20px;
+  float: left;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ba262b;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* line 22, ../sass/_header.sass */
+#header #buynow:hover {
+  background: #87181c;
+}
+/* line 24, ../sass/_header.sass */
 #header #viewall, #header #returntoall {
   float: right;
   margin-top: 25px;
 }
-/* line 13, ../sass/_header.sass */
+/* line 27, ../sass/_header.sass */
 #header #viewall, #header #returntoall {
   background: #ba262b url(/images/icons/return.png) 16px 7px no-repeat;
   background-size: 32px 32px;
@@ -131,15 +160,15 @@ ul li {
   transition: all 0.4s ease-in-out;
   color: white;
 }
-/* line 22, ../sass/_header.sass */
+/* line 36, ../sass/_header.sass */
 #header #viewall:hover, #header #returntoall:hover {
   background-color: #87181c;
 }
-/* line 24, ../sass/_header.sass */
+/* line 38, ../sass/_header.sass */
 #header #viewall:active, #header #returntoall:active {
   background-color: black;
 }
-/* line 26, ../sass/_header.sass */
+/* line 40, ../sass/_header.sass */
 #header #viewall p, #header #returntoall p {
   margin-bottom: 0;
 }

@@ -7,6 +7,20 @@
   #date
     float: right
     margin-top: 35px
+  #buynow
+    margin-top: 33px
+    margin-left: 20px
+    float: left
+    display: inline-block
+    font-weight: bold
+    text-decoration: none
+    background: #ba262b
+    padding: 5px 10px
+    +border-radius(5px)
+    color: #fff
+    @include transition (all 0.4s ease-in-out)
+    &:hover
+      background: $darkred
   #viewall, #returntoall
     float: right
     margin-top: 25px
