@@ -11,7 +11,7 @@ title: Organizers
   <img src="{{ post.image }}" alt="{{ post.title }}" id="{{ post.twitter }}"/>
   <div class="content">
     <h5>{{ post.title | xml_escape }}</h5>
-    <p>{{ post.desc }}</p>
+    <p>{{ post.content }}</p>
     <a href="http://{{ post.link }}" target="blank" class="web_site">{{ post.link }}</a>
     <a href="http://github.com/{{ post.github }}" target="blank" class="github">{{ post.github }}</a>
     <a href="http://twitter.com/{{ post.twitter }}" target="blank" class="twitter_link">{{ post.twitter }}</a>

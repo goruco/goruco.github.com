@@ -1,9 +1,9 @@
 ---
 title: Steve Berry
-desc: Steve is a UX/UI/Usability expert with a special knack for creating usable experiences. He recently moved from Philadelphia to NYC to continue the spread of design thinking. Steve is an award winning visual and information designer with extensive experience in usability heuristics.
 image: /images/people/berry.png
 link: thoughtmerchants.com
 github: thoughtmerchant
 twitter: thoughtmerchant
 ---
 
+Steve is a designer of things - most of the time they are on the internet. He is an advocate of <a href="http://www.racquet.io" target="blank">playing ping pong at work</a>.
