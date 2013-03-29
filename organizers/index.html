@@ -3,10 +3,12 @@ layout: news-index
 title: Organizers
 ---
 
-<h1>Organizers</h1>
+<div class="grid_12 hero_badge">
+  <h1>Organizers</h1>
+</div>
 {% for post in site.categories.organizers %}
 
-
+<div class="grid_12">
 <div class="org_person_big">
   <img src="{{ post.image }}" alt="{{ post.title }}" id="{{ post.twitter }}"/>
   <div class="content">

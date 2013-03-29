@@ -1,9 +1,25 @@
 #sidebar
+  p
+    font-size: 14px
+    line-height: 20px
   ul
     list-style: none
     margin: 0
+    border-top: 1px dotted $gray
     li
       list-style: none
       margin: 0
+      border-bottom: 1px dotted $gray
+      overflow: hidden
+      a
+        @include transition (all 0.3s ease-in-out)
+        background: url(/images/icons/wedge.png) 200px 13px no-repeat
+        background-size: 7px 12px
+        text-decoration: none
+        display: block
+        padding: 5px 10px
+        &:hover
+          background: $gray url(/images/icons/wedge.png) 200px 13px no-repeat
+          background-size: 7px 12px
     ul.sub-list
       margin-bottom: 20px

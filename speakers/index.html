@@ -4,23 +4,20 @@ title: Speakers
 meta: GORUCO Speaker line-up.
 ---
 
-<div class="grid_12">
-  <h1>Speakers</h1>
+{% for year in site.years %}
+  <h2>{{ year }}</h2>
 
-  {% for year in site.years %}
-    <h2>{{ year }}</h2>
-
-    <ul class="speaker_list">
-    {% for speaker in site.categories.speakers %}
-      {% if speaker.year == year %}
-        <li>
-          <h3><a href="{{ speaker.url }}">{{ speaker.meta }}</a></h3>
-          <p>{{ speaker.title }}</p>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
+  <ul class="speaker_list">
+  {% for speaker in site.categories.speakers %}
+    {% if speaker.year == year %}
+      <li>
+        <h3><a href="{{ speaker.url }}">{{ speaker.meta }}</a></h3>
+        <p>{{ speaker.title }}</p>
+      </li>
+    {% endif %}
   {% endfor %}
+  </ul>
+{% endfor %}
 
-</div>
+
 

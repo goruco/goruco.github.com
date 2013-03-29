@@ -2,26 +2,42 @@
 
 <div class="container_12">
 
-<a href="/" class="grid_12" id="banner">
-  <p>GORUCO is a one-day event that will take place in New York City on June 8, 2013. It is a fun technical conference aimed at highly motivated programmers interested in all things Ruby.</p>
-</a>
-
-<div class="grid_12" id="header">
+<div class="grid_12" id="headercompact">
   <a href="/" id="logo"><img src="/images/icons/goruco.png" height=43 width=160/></a>
   <a href="/speakers" id="viewall"><p>View All Speakers</p></a>
 </div>
+
+<div class="grid_12" id="speaker_hero">
+  <h1>{{ page.meta }}</h1>
+  <img src="{{ page.image }}" alt="{{ page.title }}" onerror="this.style.display='none'" height=70 width=70 />
+  <h2>{{ page.title }}</h2>
+  <a href="http://twitter.com/{{ page.twitter }}" target="blank" class="twitter_link">{{ page.twitter }}</a>
+  <a href="http://{{ page.link }}" target="blank" class="web_site">{{ page.link }}</a>
+</div>
+
 
 <div class="grid_9" id="speaker_page">
   {{ content }}
 </div>
 
 <div class="grid_3" id="sidebar">
+  <p>GORUCO is a one-day event that will take place in New York City on June 8, 2013. It is a fun technical conference aimed at highly motivated programmers interested in all things Ruby.</p>
+  <ul>
+    <li><a href="/">Learn More</a></li>
+    <li><a href="http://goruco.ticketleap.com/2013/">Buy Tickets</a></li>
+  </ul>
+
+</div>
+
+<div class="clearfix"></div>
+
+<div id="all_speakers">
 {% case page.categories[0] %}
 
   {% when 'speakers' %}
   <ul>
     {% for year in site.years %}
-      <li>
+      <li class="speaker_block">
         <h4>{{ year }}</h4>
         <ul class="sub-list">
           {% for speaker in site.categories.speakers %}

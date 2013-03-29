@@ -27,55 +27,59 @@ h1, h2, h3, .org_person_big h5 {
 
 /* line 4, ../sass/_text.sass */
 h1 {
-  font-size: 88px;
-  margin-bottom: 50px;
+  font-size: 66px;
+  line-height: 75px;
+  margin-bottom: 29px;
+  font-weight: 700;
 }
 
-/* line 7, ../sass/_text.sass */
+/* line 11, ../sass/_text.sass */
 h2 {
-  font-size: 60px;
-  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 29px;
 }
 
-/* line 10, ../sass/_text.sass */
+/* line 18, ../sass/_text.sass */
 h3, .org_person_big h5 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 29px;
 }
 
-/* line 14, ../sass/_text.sass */
+/* line 22, ../sass/_text.sass */
 h4 {
   font-size: 21px;
 }
 
-/* line 17, ../sass/_text.sass */
+/* line 25, ../sass/_text.sass */
 p {
   font-size: 21px;
   margin-bottom: 29px;
   line-height: 29px;
 }
 
-/* line 22, ../sass/_text.sass */
+/* line 30, ../sass/_text.sass */
 .sub {
   color: #bcbcbc;
 }
 
-/* line 24, ../sass/_text.sass */
+/* line 32, ../sass/_text.sass */
 .small {
   font-size: 16px;
 }
 
-/* line 26, ../sass/_text.sass */
+/* line 34, ../sass/_text.sass */
 sup {
   color: #bcbcbc;
 }
 
-/* line 29, ../sass/_text.sass */
+/* line 37, ../sass/_text.sass */
 ul {
   margin-left: 29px;
 }
-/* line 31, ../sass/_text.sass */
+/* line 39, ../sass/_text.sass */
 ul li {
   font-size: 21px;
   margin-bottom: 29px;
@@ -84,28 +88,25 @@ ul li {
   margin-left: 29px;
 }
 
-/* line 39, ../sass/_text.sass */
+/* line 47, ../sass/_text.sass */
 .big h2 {
   font-size: 88px;
 }
 
-/* line 1, ../sass/_header.sass */
-#header {
-  height: 100px;
-}
-/* line 3, ../sass/_header.sass */
-#header #logo {
+/* line 2, ../sass/_header.sass */
+#header #logo, #headercompact #logo {
   margin-top: 25px;
+  margin-bottom: 25px;
   display: block;
   float: left;
 }
 /* line 7, ../sass/_header.sass */
-#header #date {
+#header #date, #headercompact #date {
   float: right;
   margin-top: 35px;
 }
 /* line 10, ../sass/_header.sass */
-#header #buynow {
+#header #buynow, #headercompact #buynow {
   margin-top: 33px;
   margin-left: 20px;
   float: left;
@@ -130,16 +131,16 @@ ul li {
   transition: all 0.4s ease-in-out;
 }
 /* line 22, ../sass/_header.sass */
-#header #buynow:hover {
+#header #buynow:hover, #headercompact #buynow:hover {
   background: #87181c;
 }
 /* line 24, ../sass/_header.sass */
-#header #viewall, #header #returntoall {
+#header #viewall, #header #returntoall, #headercompact #viewall, #headercompact #returntoall {
   float: right;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 /* line 27, ../sass/_header.sass */
-#header #viewall, #header #returntoall {
+#header #viewall, #header #returntoall, #headercompact #viewall, #headercompact #returntoall {
   background: #ba262b url(/images/icons/return.png) 16px 7px no-repeat;
   background-size: 32px 32px;
   border-top-left-radius: 100px;
@@ -161,15 +162,15 @@ ul li {
   color: white;
 }
 /* line 36, ../sass/_header.sass */
-#header #viewall:hover, #header #returntoall:hover {
+#header #viewall:hover, #header #returntoall:hover, #headercompact #viewall:hover, #headercompact #returntoall:hover {
   background-color: #87181c;
 }
 /* line 38, ../sass/_header.sass */
-#header #viewall:active, #header #returntoall:active {
+#header #viewall:active, #header #returntoall:active, #headercompact #viewall:active, #headercompact #returntoall:active {
   background-color: black;
 }
 /* line 40, ../sass/_header.sass */
-#header #viewall p, #header #returntoall p {
+#header #viewall p, #header #returntoall p, #headercompact #viewall p, #headercompact #returntoall p {
   margin-bottom: 0;
 }
 
@@ -699,8 +700,9 @@ ul li {
 .org_person_big .exit:active {
   background-color: #bcbcbc;
 }
+
 /* line 73, ../sass/_org_person.sass */
-.org_person_big .web_site, .org_person_big .github, .org_person_big .twitter_link {
+.web_site, .github, .twitter_link {
   padding: 0 20px 0 40px;
   line-height: 40px;
   float: left;
@@ -713,7 +715,7 @@ ul li {
   transition: all 0.3s ease-in-out;
 }
 /* line 80, ../sass/_org_person.sass */
-.org_person_big .web_site:hover, .org_person_big .github:hover, .org_person_big .twitter_link:hover {
+.web_site:hover, .github:hover, .twitter_link:hover {
   background-color: #ba262b;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -725,18 +727,21 @@ ul li {
   border-bottom-right-radius: 3px;
   color: white;
 }
+
 /* line 84, ../sass/_org_person.sass */
-.org_person_big .web_site {
+.web_site {
   background: url(/images/icons/link.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
+
 /* line 87, ../sass/_org_person.sass */
-.org_person_big .github {
+.github {
   background: url(/images/icons/github.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
+
 /* line 90, ../sass/_org_person.sass */
-.org_person_big .twitter_link {
+.twitter_link {
   background: url(/images/icons/twitter_link.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
@@ -819,16 +824,42 @@ ul li {
 }
 
 /* line 2, ../sass/_sidebar.sass */
+#sidebar p {
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 5, ../sass/_sidebar.sass */
 #sidebar ul {
   list-style: none;
   margin: 0;
+  border-top: 1px dotted #bcbcbc;
 }
-/* line 5, ../sass/_sidebar.sass */
+/* line 9, ../sass/_sidebar.sass */
 #sidebar ul li {
   list-style: none;
   margin: 0;
+  border-bottom: 1px dotted #bcbcbc;
+  overflow: hidden;
 }
-/* line 8, ../sass/_sidebar.sass */
+/* line 14, ../sass/_sidebar.sass */
+#sidebar ul li a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: url(/images/icons/wedge.png) 200px 13px no-repeat;
+  background-size: 7px 12px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+/* line 21, ../sass/_sidebar.sass */
+#sidebar ul li a:hover {
+  background: #bcbcbc url(/images/icons/wedge.png) 200px 13px no-repeat;
+  background-size: 7px 12px;
+}
+/* line 24, ../sass/_sidebar.sass */
 #sidebar ul ul.sub-list {
   margin-bottom: 20px;
 }
@@ -847,19 +878,122 @@ ul li {
   margin-bottom: 20px;
 }
 
-/* line 33, ../sass/screen.sass */
+/* line 10, ../sass/_speaker_page.sass */
+#speaker_hero {
+  overflow: hidden;
+  border-top: 1px dotted #bcbcbc;
+  border-bottom: 1px dotted #bcbcbc;
+  padding-bottom: 29px;
+  margin-bottom: 29px;
+  padding-top: 38px;
+}
+/* line 17, ../sass/_speaker_page.sass */
+#speaker_hero img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  background: white url(/images/speakers/2013/blank.jpg) 0 0 no-repeat;
+  background-size: 70px 70px;
+  float: left;
+}
+/* line 22, ../sass/_speaker_page.sass */
+#speaker_hero h1 {
+  margin: 0;
+}
+/* line 24, ../sass/_speaker_page.sass */
+#speaker_hero h2 {
+  font-size: 27px;
+  font-weight: 500;
+  margin: 22px 10px 29px 24px;
+  display: inline-block;
+}
+/* line 29, ../sass/_speaker_page.sass */
+#speaker_hero a {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-top: 21px;
+  opacity: 0.5;
+}
+/* line 35, ../sass/_speaker_page.sass */
+#speaker_hero a:hover {
+  opacity: 1;
+}
+
+/* line 1, ../sass/_all_speakers.sass */
+#all_speakers {
+  margin-top: 29px;
+}
+/* line 3, ../sass/_all_speakers.sass */
+#all_speakers ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 6, ../sass/_all_speakers.sass */
+#all_speakers ul li {
+  list-style: none;
+  margin: 0;
+}
+/* line 9, ../sass/_all_speakers.sass */
+#all_speakers ul ul.sub-list {
+  margin-bottom: 20px;
+}
+/* line 12, ../sass/_all_speakers.sass */
+#all_speakers .speaker_block {
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+  height: 340px;
+  overflow: hidden;
+}
+/* line 18, ../sass/_all_speakers.sass */
+#all_speakers .speaker_block li, #all_speakers .speaker_block li a {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+/* line 22, ../sass/_all_speakers.sass */
+#all_speakers .speaker_block li:hover, #all_speakers .speaker_block li a:hover {
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/elements/_hero_badge.sass */
+.hero_badge {
+  border-top: 1px dotted #bcbcbc;
+  border-bottom: 1px dotted #bcbcbc;
+  padding: 25px 0;
+  margin-bottom: 25px;
+}
+/* line 6, ../sass/elements/_hero_badge.sass */
+.hero_badge h1 {
+  margin-bottom: 0;
+}
+
+/* line 2, ../sass/custom/_homepage.sass */
+.big h2 {
+  font-weight: 300;
+  line-height: 95px;
+}
+
+/* line 38, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
   -webkit-font-smoothing: antialiased;
+  color: #444444;
 }
 
-/* line 38, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }

@@ -4,9 +4,10 @@ title: News
 meta: Updates and News for GORUCO.
 author: Steve Berry
 ---
-
-<div class="grid_12">
+<div class="grid_12 hero_badge">
   <h1>News Articles</h1>
+</div>
+<div class="grid_9">
   <ul id="news_list">
   {% for post in site.categories.news %}
     <li>
@@ -17,4 +18,13 @@ author: Steve Berry
     </li>
   {% endfor %}
   </ul>
+</div>
+
+<div class="grid_3" id="sidebar">
+  <p>GORUCO is a one-day event that will take place in New York City on June 8, 2013. It is a fun technical conference aimed at highly motivated programmers interested in all things Ruby.</p>
+  <ul>
+    <li><a href="/">Learn More</a></li>
+    <li><a href="http://goruco.ticketleap.com/2013/">Buy Tickets</a></li>
+  </ul>
+
 </div>
