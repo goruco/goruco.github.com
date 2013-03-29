@@ -113,18 +113,25 @@ author: Steve Berry
 </div>
 <div class="clear"></div>
 
-<div class="grid_12" id="speakers">
+<div class="grid_12" id="speakers_heading">
   <h2>Speakers</h2>
-  <p>Our Call for Proposals is open now until March 14<sup>th</sup></p>
+</div>
 
-  <p><a href="http://bit.ly/goruco-2013-cfp" target="blank">Apply to Speak at GORUCO 2013</a></p>
-<!--   <ul>
-    <li>
-      <h4>Power Rake</h4>
-      <p>Jim Weinrench</p>
-      <p class="sub">Watch Video</p>
-    </li>
-  </ul> -->
+<ul id="speaker_grid">
+{% for post in site.categories.speakers limit:13 %}
+  <li class="{% cycle '', '', 'end' %}">
+    <a href="{{ post.url }}" class="avatar">
+      <img src="{{ post.image }}"/>
+    </a>
+    <div class="clearfix"></div>
+    <a href="{{ post.url }}">{{ post.meta | xml_escape }}</a>
+    <p>{{ post.title }}</p>
+  </li>
+{% endfor %}
+
+</ul>
+
+<div class="grid_12" id="speakers">
   <a href="/speakers" id="all_speakers">
     <p>View Speakers from Previous Years</p>
   </a>

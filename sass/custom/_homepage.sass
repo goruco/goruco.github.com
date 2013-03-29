@@ -2,3 +2,43 @@
   h2
     font-weight: 300
     line-height: 95px
+
+#speaker_grid
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    float: left
+    margin: 0
+    height: 325px
+    padding: 0 20px
+    list-style: none
+    width: 279px
+    border-right: 1px dotted $gray
+    border-bottom: 1px dotted $gray
+    &.end
+      border-right: none
+  img
+    height: 160px
+    width: 160px
+    +border-radius(200px)
+    display: block
+  a, p
+    text-align: center
+    display: block
+    font-size: 16px
+    line-height: 18px
+  a
+    text-decoration: none
+    padding: 0 20px
+    font-weight: 700
+    font-size: 18px
+    line-height: 20px
+    margin-bottom: 10px
+    &:hover
+      text-decoration: underline
+  a.avatar
+    height: 160px
+    width: 160px
+    margin: 20px auto
+    padding: 0

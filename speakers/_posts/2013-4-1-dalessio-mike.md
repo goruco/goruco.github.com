@@ -3,7 +3,7 @@ layout: speaker-header
 title: Mike Dalessio
 meta: Nokogiri - History and Future
 desc: ...
-image: /images/speakers/2013/mike.jpg
+image: /images/speakers/2013/mike.png
 author: GORUCO
 year: 2013
 twitter: flavorjones

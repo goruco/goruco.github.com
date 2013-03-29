@@ -3,7 +3,7 @@ layout: speaker-header
 title: Pat Shaughnessy
 meta: Functional Programming and Ruby
 desc: In this talk we'll compare Haskell, a functional programming language, with Ruby while exploring these common functional patterns -  higher order functions, lazy evaluation, and memoization.
-image: /images/speakers/2013/pat.png
+image: /images/speakers/2013/pat.jpg
 author: GORUCO
 year: 2013
 twitter: pat_shaughnessy
