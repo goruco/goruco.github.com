@@ -31,6 +31,8 @@ If you know a student who might benefit from this program, please help
  us make GORUCO a more inclusive conference by spreading the word to
 them!
 
+### Mentors Wanted
+
 If you are interested in helping mentor the next generation of
  rubyists, please [contact GORUCO](mailto:info@goruco.com) to find out more about becoming a
 volunteer! Your job will be to help answer questions and help make
