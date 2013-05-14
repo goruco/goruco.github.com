@@ -1074,7 +1074,59 @@ ul li {
   padding: 0;
 }
 
-/* line 39, ../sass/screen.sass */
+/* line 1, ../sass/custom/_sponsors.sass */
+#sponsors {
+  margin: 30px 0 0 0;
+  padding: 30px 0 10px 0;
+  border-top: 1px dotted #bcbcbc;
+  border-bottom: 1px dotted #bcbcbc;
+}
+/* line 6, ../sass/custom/_sponsors.sass */
+#sponsors h2 {
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+/* line 9, ../sass/custom/_sponsors.sass */
+#sponsors p {
+  text-align: center;
+  margin: auto auto 30px auto;
+}
+/* line 13, ../sass/custom/_sponsors.sass */
+#sponsors #platinum img, #sponsors #gold1 img, #sponsors #gold2 img {
+  display: block;
+  margin: auto auto;
+}
+/* line 16, ../sass/custom/_sponsors.sass */
+#sponsors #platinum {
+  float: left;
+  width: 625px;
+  height: 415px;
+  border-bottom: 1px dotted #bcbcbc;
+  border-right: 1px dotted #bcbcbc;
+}
+/* line 22, ../sass/custom/_sponsors.sass */
+#sponsors #platinum img {
+  margin-top: 55px;
+}
+/* line 24, ../sass/custom/_sponsors.sass */
+#sponsors #gold1, #sponsors #gold2 {
+  border-bottom: 1px dotted #bcbcbc;
+  float: left;
+  width: 314px;
+}
+/* line 28, ../sass/custom/_sponsors.sass */
+#sponsors .bronze {
+  border-bottom: 1px dotted #bcbcbc;
+  border-right: 1px dotted #bcbcbc;
+  float: left;
+  width: 312px;
+}
+/* line 33, ../sass/custom/_sponsors.sass */
+#sponsors .bronze.end {
+  border-right: none;
+}
+
+/* line 40, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
@@ -1082,12 +1134,12 @@ body {
   color: #444444;
 }
 
-/* line 45, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 49, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }
