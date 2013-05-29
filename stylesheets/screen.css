@@ -1091,12 +1091,17 @@ ul li {
   text-align: center;
   margin: auto auto 30px auto;
 }
-/* line 13, ../sass/custom/_sponsors.sass */
+/* line 12, ../sass/custom/_sponsors.sass */
+#sponsors img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 16, ../sass/custom/_sponsors.sass */
 #sponsors #platinum img, #sponsors #gold1 img, #sponsors #gold2 img {
   display: block;
   margin: auto auto;
 }
-/* line 16, ../sass/custom/_sponsors.sass */
+/* line 19, ../sass/custom/_sponsors.sass */
 #sponsors #platinum {
   float: left;
   width: 625px;
@@ -1104,25 +1109,34 @@ ul li {
   border-bottom: 1px dotted #bcbcbc;
   border-right: 1px dotted #bcbcbc;
 }
-/* line 22, ../sass/custom/_sponsors.sass */
+/* line 25, ../sass/custom/_sponsors.sass */
 #sponsors #platinum img {
   margin-top: 55px;
 }
-/* line 24, ../sass/custom/_sponsors.sass */
+/* line 27, ../sass/custom/_sponsors.sass */
 #sponsors #gold1, #sponsors #gold2 {
   border-bottom: 1px dotted #bcbcbc;
   float: left;
   width: 314px;
 }
-/* line 28, ../sass/custom/_sponsors.sass */
-#sponsors .bronze {
+/* line 31, ../sass/custom/_sponsors.sass */
+#sponsors #gold1 {
+  height: 415px;
+}
+/* line 33, ../sass/custom/_sponsors.sass */
+#sponsors #gold1 img {
+  margin: 79px auto 0 auto;
+  display: block;
+}
+/* line 37, ../sass/custom/_sponsors.sass */
+#sponsors .bronze, #sponsors .gold {
   border-bottom: 1px dotted #bcbcbc;
   border-right: 1px dotted #bcbcbc;
   float: left;
   width: 312px;
 }
-/* line 33, ../sass/custom/_sponsors.sass */
-#sponsors .bronze.end {
+/* line 42, ../sass/custom/_sponsors.sass */
+#sponsors .bronze.end, #sponsors .gold.end {
   border-right: none;
 }
 
