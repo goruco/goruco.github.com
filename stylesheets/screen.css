@@ -1140,7 +1140,23 @@ ul li {
   border-right: none;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 1, ../sass/custom/_agenda.sass */
+ul#agenda {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 5, ../sass/custom/_agenda.sass */
+ul#agenda li {
+  list-style: none;
+  margin-left: 20px;
+}
+/* line 8, ../sass/custom/_agenda.sass */
+ul#agenda li .time {
+  font-weight: bold;
+}
+
+/* line 41, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
@@ -1148,12 +1164,12 @@ body {
   color: #444444;
 }
 
-/* line 46, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 49, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }
