@@ -2,7 +2,6 @@
 @import "reset.css"
 @import "text.css"
 
-
 $red: #ba262b
 $darkred: #87181c
 $body: #444444
@@ -18,11 +17,17 @@ $half-width: 470px
   @include border-right-radius($var)
 
 @import bourbon/bourbon
+
+@import elements/hero_badge
+@import elements/avatar
+@import elements/profile
+
 @import layout
 @import text
 @import header
 @import hero
 @import org_person
+@import sponsor
 @import articles
 @import lists
 @import banner
@@ -30,13 +35,9 @@ $half-width: 470px
 @import speaker_page
 @import all_speakers
 
-@import elements/hero_badge
-@import elements/avatar
-
 @import custom/homepage
 @import custom/sponsors
 @import custom/agenda
-
 
 body
   font-family: "proxima-nova"

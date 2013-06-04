@@ -37,39 +37,7 @@
 .org_person:hover .avatar
   border: 5px solid $red
 .org_person_big
-  display: block
-  overflow: hidden
-  position: relative
-  padding-bottom: 40px
-  margin-bottom: 40px
-  .content
-    float: left
-    width: 560px
-  img
-    height: 220px
-    width: 220px
-    +border-radius(500px)
-    float: left
-    margin-right: 20px
-  h5
-    @extend h3
-    font-weight: 500
-  .exit
-    position: absolute
-    top: 10px
-    right: 10px
-    text-indent: -99999px
-    display: block
-    background: transparent url(/images/icons/exit.png) 0 0 no-repeat
-    background-size: 16px 16px
-    height: 16px
-    width: 16px
-    @include transition (all 0.2s ease-in-out)
-    +border-radius(3px)
-    &:hover
-      background-color: $lightgray
-    &:active
-      background-color: $gray
+  @include profile
 .web_site, .github, .twitter_link
   padding: 0 20px 0 40px
   line-height: 40px
