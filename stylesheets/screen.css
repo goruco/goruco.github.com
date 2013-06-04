@@ -55,7 +55,7 @@
 }
 
 /* line 1, ../sass/_text.sass */
-h1, h2, h3, .org_person_big h5 {
+h1, h2, h3, .org_person_big h5, .sponsor_big h5 {
   font-weight: 100;
 }
 
@@ -76,7 +76,7 @@ h2 {
 }
 
 /* line 18, ../sass/_text.sass */
-h3, .org_person_big h5 {
+h3, .org_person_big h5, .sponsor_big h5 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 29px;
@@ -346,7 +346,7 @@ ul li {
   position: relative;
 }
 /* line 88, ../sass/_hero.sass */
-#article h3, #article .org_person_big h5, .org_person_big #article h5 {
+#article h3, #article .org_person_big h5, .org_person_big #article h5, #article .sponsor_big h5, .sponsor_big #article h5 {
   font-weight: 600;
   margin-bottom: 29px;
 }
@@ -381,7 +381,7 @@ ul li {
   margin-top: 140px;
 }
 /* line 107, ../sass/_hero.sass */
-#previous_articles h3, #previous_articles .org_person_big h5, .org_person_big #previous_articles h5 {
+#previous_articles h3, #previous_articles .org_person_big h5, .org_person_big #previous_articles h5, #previous_articles .sponsor_big h5, .sponsor_big #previous_articles h5 {
   font-size: 21px;
 }
 /* line 109, ../sass/_hero.sass */
@@ -789,6 +789,76 @@ ul li {
   background-size: 24px 24px;
 }
 
+/* line 1, ../sass/_sponsor.sass */
+.sponsor_big {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+/* line 7, ../sass/elements/_profile.sass */
+.sponsor_big .content {
+  float: left;
+  width: 560px;
+}
+/* line 10, ../sass/elements/_profile.sass */
+.sponsor_big img {
+  height: 220px;
+  width: 220px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  float: left;
+  margin-right: 20px;
+}
+/* line 16, ../sass/elements/_profile.sass */
+.sponsor_big h5 {
+  font-weight: 500;
+}
+/* line 19, ../sass/elements/_profile.sass */
+.sponsor_big .exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-indent: -99999px;
+  display: block;
+  background: transparent url(/images/icons/exit.png) 0 0 no-repeat;
+  background-size: 16px 16px;
+  height: 16px;
+  width: 16px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 31, ../sass/elements/_profile.sass */
+.sponsor_big .exit:hover {
+  background-color: #e5e5e5;
+}
+/* line 33, ../sass/elements/_profile.sass */
+.sponsor_big .exit:active {
+  background-color: #bcbcbc;
+}
+/* line 3, ../sass/_sponsor.sass */
+.sponsor_big img {
+  height: auto;
+}
+
 /* line 2, ../sass/_articles.sass */
 .article_style .post-details {
   margin-bottom: 40px;
@@ -806,7 +876,7 @@ ul li {
   list-style: none;
 }
 /* line 4, ../sass/_lists.sass */
-#news_list h3, #news_list .org_person_big h5, .org_person_big #news_list h5, #news_list p, .speaker_list h3, .speaker_list .org_person_big h5, .org_person_big .speaker_list h5, .speaker_list p {
+#news_list h3, #news_list .org_person_big h5, .org_person_big #news_list h5, #news_list .sponsor_big h5, .sponsor_big #news_list h5, #news_list p, .speaker_list h3, .speaker_list .org_person_big h5, .org_person_big .speaker_list h5, .speaker_list .sponsor_big h5, .sponsor_big .speaker_list h5, .speaker_list p {
   margin-bottom: 0;
 }
 /* line 6, ../sass/_lists.sass */
