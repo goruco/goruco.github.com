@@ -1,6 +1,40 @@
 @import url(960.css);
 @import url(reset.css);
 @import url(text.css);
+/* line 1, ../sass/elements/_hero_badge.sass */
+.hero_badge {
+  border-top: 1px dotted #bcbcbc;
+  border-bottom: 1px dotted #bcbcbc;
+  padding: 25px 0;
+  margin-bottom: 25px;
+}
+/* line 6, ../sass/elements/_hero_badge.sass */
+.hero_badge h1 {
+  margin-bottom: 0;
+}
+
+/* line 1, ../sass/elements/_avatar.sass */
+.avatar {
+  border: 5px solid white;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/* line 5, ../sass/elements/_avatar.sass */
+.avatar:hover {
+  border: 5px solid #ba262b;
+}
+
 /* line 1, ../sass/layout.sass */
 .half {
   width: 470px;
@@ -652,12 +686,12 @@ ul li {
   padding-bottom: 40px;
   margin-bottom: 40px;
 }
-/* line 45, ../sass/_org_person.sass */
+/* line 7, ../sass/elements/_profile.sass */
 .org_person_big .content {
   float: left;
   width: 560px;
 }
-/* line 48, ../sass/_org_person.sass */
+/* line 10, ../sass/elements/_profile.sass */
 .org_person_big img {
   height: 220px;
   width: 220px;
@@ -672,11 +706,11 @@ ul li {
   float: left;
   margin-right: 20px;
 }
-/* line 54, ../sass/_org_person.sass */
+/* line 16, ../sass/elements/_profile.sass */
 .org_person_big h5 {
   font-weight: 500;
 }
-/* line 57, ../sass/_org_person.sass */
+/* line 19, ../sass/elements/_profile.sass */
 .org_person_big .exit {
   position: absolute;
   top: 10px;
@@ -701,16 +735,16 @@ ul li {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-/* line 69, ../sass/_org_person.sass */
+/* line 31, ../sass/elements/_profile.sass */
 .org_person_big .exit:hover {
   background-color: #e5e5e5;
 }
-/* line 71, ../sass/_org_person.sass */
+/* line 33, ../sass/elements/_profile.sass */
 .org_person_big .exit:active {
   background-color: #bcbcbc;
 }
 
-/* line 73, ../sass/_org_person.sass */
+/* line 41, ../sass/_org_person.sass */
 .web_site, .github, .twitter_link {
   padding: 0 20px 0 40px;
   line-height: 40px;
@@ -723,7 +757,7 @@ ul li {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 80, ../sass/_org_person.sass */
+/* line 48, ../sass/_org_person.sass */
 .web_site:hover, .github:hover, .twitter_link:hover {
   background-color: #ba262b;
   border-top-left-radius: 3px;
@@ -737,19 +771,19 @@ ul li {
   color: white;
 }
 
-/* line 84, ../sass/_org_person.sass */
+/* line 52, ../sass/_org_person.sass */
 .web_site {
   background: url(/images/icons/link.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
 
-/* line 87, ../sass/_org_person.sass */
+/* line 55, ../sass/_org_person.sass */
 .github {
   background: url(/images/icons/github.png) 10px center no-repeat;
   background-size: 24px 24px;
 }
 
-/* line 90, ../sass/_org_person.sass */
+/* line 58, ../sass/_org_person.sass */
 .twitter_link {
   background: url(/images/icons/twitter_link.png) 10px center no-repeat;
   background-size: 24px 24px;
@@ -971,40 +1005,6 @@ ul li {
   text-decoration: underline;
 }
 
-/* line 1, ../sass/elements/_hero_badge.sass */
-.hero_badge {
-  border-top: 1px dotted #bcbcbc;
-  border-bottom: 1px dotted #bcbcbc;
-  padding: 25px 0;
-  margin-bottom: 25px;
-}
-/* line 6, ../sass/elements/_hero_badge.sass */
-.hero_badge h1 {
-  margin-bottom: 0;
-}
-
-/* line 1, ../sass/elements/_avatar.sass */
-.avatar {
-  border: 5px solid white;
-  border-top-left-radius: 500px;
-  border-top-right-radius: 500px;
-  border-bottom-left-radius: 500px;
-  border-bottom-right-radius: 500px;
-  border-top-left-radius: 500px;
-  border-bottom-left-radius: 500px;
-  border-top-right-radius: 500px;
-  border-bottom-right-radius: 500px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-/* line 5, ../sass/elements/_avatar.sass */
-.avatar:hover {
-  border: 5px solid #ba262b;
-}
-
 /* line 2, ../sass/custom/_homepage.sass */
 .big h2 {
   font-weight: 300;
@@ -1156,7 +1156,7 @@ ul#agenda li .time {
   font-weight: bold;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 42, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
@@ -1164,12 +1164,12 @@ body {
   color: #444444;
 }
 
-/* line 47, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 50, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }
