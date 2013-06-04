@@ -1,68 +1,23 @@
 ---
-layout: big
-title: Sponsors
-meta: GORUCO 2012 Sponsors
+layout: news-index
+title: Organizers
 ---
-<script type="text/javascript">
-  document.getElementById("sponsors").setAttribute("class","active");
-</script>
 
-<h1>Sponsors</h1>
+<div class="grid_12 hero_badge">
+  <h1>Sponsors</h1>
+</div>
+{% for post in site.categories.sponsors %}
 
-<h2>Gold Sponsors</h2>
-<div class="main-sponsors">
-  <div class="six columns alpha">
-  <a href="http://www.bluebox.net" target="blank"><img src="/images/sponsors/bluebox.png" alt="Blue Box" class="scale-with-grid"/></a>
+<div class="grid_12">
+  <div class="org_person_big">
+    <img src="{{ post.image }}" alt="{{ post.title }}" id="{{ post.twitter }}"/>
+    <div class="content">
+      <h5>{{ post.title | xml_escape }}</h5>
+      <p>{{ post.content }}</p>
+      <a href="http://{{ post.link }}" target="blank" class="web_site">{{ post.link }}</a>
+      <a href="http://twitter.com/{{ post.twitter }}" target="blank" class="twitter_link">{{ post.twitter }}</a>
+    </div>
   </div>
-  <div class="six columns omega">
-  <a href="http://www.engineyard.com/" target="blank"><img src="/images/sponsors/engineyard.png" alt="engine yard" style="min-width: 100px; margin: 0 70px" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-  <div class="six columns alpha">
-  <a href="http://www.groupme.com/" target="blank"><img src="/images/sponsors/groupme.png" alt="GroupMe" class="scale-with-grid"/></a>
-  </div>
-  <div class="six columns omega">
-  <a href="http://www.intentmedia.com/" target="blank"><img src="/images/sponsors/intent.png" alt="intent media" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
 </div>
+{% endfor %}
 
-<hr/>
-<h2>Lanyard Sponsor</h2>
-<div class="main-sponsors">
-  <div class="six columns alpha">
-  <a href="http://www.livingsocial.com" target="blank"><img src="/images/sponsors/living-social.png" alt="LivingSocial" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-</div>
-<hr/>
-
-<h2>Silver Sponsors</h2>
-<div class="main-sponsors">
-  <div class="six columns alpha">
-  <a href="http://www.pivotallabs.com" target="blank"><img src="/images/sponsors/pivotal.png" alt="Pivotal Labs" class="scale-with-grid"/></a>
-  </div>
-  <div class="six columns omega">
-  <a href="http://www.stackbuilders.com" target="blank"><img src="/images/sponsors/stack-builders.png" alt="Stack Builders" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-  <div class="six columns alpha">
-    <a href="http://www.unpakt.com" target="blank"><img src="/images/sponsors/unpakt.png" alt="Unpakt" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-</div>
-<hr/>
-<h2>Bronze Sponsors</h2>
-<div class="main-sponsors">
-  <div class="six columns omega">
-  <a href="http://www.codecademy.com/" target="blank"><img src="/images/sponsors/codeacademy.png" alt="Codecademy" class="scale-with-grid"/></a>
-  </div>
-  <div class="six columns omega">
-  <a href="http://generalassemb.ly/" target="blank"><img src="/images/sponsors/ga.png" alt="General Assembly" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-  <div class="six columns alpha">
-  <a href="http://www.streeteasy.com" target="blank"><img src="/images/sponsors/street-easy.png" alt="Street Easy" class="scale-with-grid"/></a>
-  </div>
-  <div class="clearfix"></div>
-</div>
