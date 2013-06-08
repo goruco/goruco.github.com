@@ -242,11 +242,34 @@ ul li {
 }
 
 /* line 24, ../sass/_hero.sass */
+#live {
+  background: #ba262b;
+}
+/* line 26, ../sass/_hero.sass */
+#live a {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 34, ../sass/_hero.sass */
+#live a:hover {
+  background: #444444;
+}
+
+/* line 37, ../sass/_hero.sass */
 #prompt {
   border-bottom: 1px dotted #bcbcbc;
   margin-bottom: 40px;
 }
-/* line 27, ../sass/_hero.sass */
+/* line 40, ../sass/_hero.sass */
 #prompt a {
   display: block;
   padding: 5px 20px;
@@ -259,26 +282,26 @@ ul li {
   background: url(/images/icons/wedge.png) 450px 14px no-repeat;
   background-size: 7px 12px;
 }
-/* line 34, ../sass/_hero.sass */
+/* line 47, ../sass/_hero.sass */
 #prompt a:hover {
   background-color: #e5e5e5;
 }
-/* line 36, ../sass/_hero.sass */
+/* line 49, ../sass/_hero.sass */
 #prompt #key_dates, #prompt #get_involved {
   margin: 15px 20px 10px 20px;
   padding-left: 33px;
 }
-/* line 39, ../sass/_hero.sass */
+/* line 52, ../sass/_hero.sass */
 #prompt #key_dates {
   background: transparent url(/images/icons/cal.png) 0 0 no-repeat;
   background-size: 24px 24px;
 }
-/* line 42, ../sass/_hero.sass */
+/* line 55, ../sass/_hero.sass */
 #prompt #get_involved {
   background: transparent url(/images/icons/badge.png) 0 0 no-repeat;
   background-size: 24px 24px;
 }
-/* line 45, ../sass/_hero.sass */
+/* line 58, ../sass/_hero.sass */
 #prompt input {
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
@@ -298,15 +321,15 @@ ul li {
   font-family: "proxima-nova";
   -webkit-font-smoothing: antialiased;
 }
-/* line 59, ../sass/_hero.sass */
+/* line 72, ../sass/_hero.sass */
 #prompt input:hover {
   background-color: #e5e5e5;
 }
-/* line 62, ../sass/_hero.sass */
+/* line 75, ../sass/_hero.sass */
 #prompt ul {
   margin: 0;
 }
-/* line 64, ../sass/_hero.sass */
+/* line 77, ../sass/_hero.sass */
 #prompt ul li {
   margin: 0;
   list-style: none;
@@ -314,43 +337,43 @@ ul li {
   font-size: 21px;
   line-height: 29px;
 }
-/* line 70, ../sass/_hero.sass */
+/* line 83, ../sass/_hero.sass */
 #prompt ul li:last-child {
   border-bottom: none;
 }
-/* line 72, ../sass/_hero.sass */
+/* line 85, ../sass/_hero.sass */
 #prompt ul li:first-child {
   border-top: 1px dotted #e5e5e5;
 }
-/* line 74, ../sass/_hero.sass */
+/* line 87, ../sass/_hero.sass */
 #prompt ul .bump {
   padding: 5px 20px;
 }
-/* line 77, ../sass/_hero.sass */
+/* line 90, ../sass/_hero.sass */
 #prompt .half p {
   opacity: 1;
   text-align: center;
   margin-top: 35px;
 }
 
-/* line 81, ../sass/_hero.sass */
+/* line 94, ../sass/_hero.sass */
 .constrain500 {
   height: 500px;
   overflow: hidden;
   position: relative;
 }
 
-/* line 85, ../sass/_hero.sass */
+/* line 98, ../sass/_hero.sass */
 #article {
   overflow: hidden;
   position: relative;
 }
-/* line 88, ../sass/_hero.sass */
+/* line 101, ../sass/_hero.sass */
 #article h3, #article .org_person_big h5, .org_person_big #article h5, #article .sponsor_big h5, .sponsor_big #article h5 {
   font-weight: 600;
   margin-bottom: 29px;
 }
-/* line 91, ../sass/_hero.sass */
+/* line 104, ../sass/_hero.sass */
 #article #read_entire a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -360,12 +383,12 @@ ul li {
   padding: 0 40px 0 0;
   text-decoration: none;
 }
-/* line 95, ../sass/_hero.sass */
+/* line 108, ../sass/_hero.sass */
 #article #read_entire a:hover {
   text-decoration: underline;
 }
 
-/* line 97, ../sass/_hero.sass */
+/* line 110, ../sass/_hero.sass */
 .shader {
   position: absolute;
   width: 100%;
@@ -376,31 +399,31 @@ ul li {
   background: url(/images/icons/gradient.png) 0 0 repeat-x;
 }
 
-/* line 105, ../sass/_hero.sass */
+/* line 118, ../sass/_hero.sass */
 #previous_articles {
   margin-top: 140px;
 }
-/* line 107, ../sass/_hero.sass */
+/* line 120, ../sass/_hero.sass */
 #previous_articles h3, #previous_articles .org_person_big h5, .org_person_big #previous_articles h5, #previous_articles .sponsor_big h5, .sponsor_big #previous_articles h5 {
   font-size: 21px;
 }
-/* line 109, ../sass/_hero.sass */
+/* line 122, ../sass/_hero.sass */
 #previous_articles ul {
   margin: 0;
   padding: 0;
 }
-/* line 112, ../sass/_hero.sass */
+/* line 125, ../sass/_hero.sass */
 #previous_articles ul li {
   margin: 0;
   list-style: none;
   padding: 0 10px 0 0;
   border-bottom: 1px dotted #e5e5e5;
 }
-/* line 117, ../sass/_hero.sass */
+/* line 130, ../sass/_hero.sass */
 #previous_articles ul li:last-child {
   border-bottom: none;
 }
-/* line 119, ../sass/_hero.sass */
+/* line 132, ../sass/_hero.sass */
 #previous_articles ul li a {
   display: block;
   padding: 15px 0;
@@ -412,102 +435,102 @@ ul li {
   transition: background 0.3s ease-in-out;
   background: url(/images/icons/wedge.png) 310px 19px no-repeat;
 }
-/* line 125, ../sass/_hero.sass */
+/* line 138, ../sass/_hero.sass */
 #previous_articles ul li a:hover {
   background: url(/images/icons/wedge.png) 281px 19px no-repeat;
   background-size: 7px 12px;
   text-decoration: underline;
 }
-/* line 129, ../sass/_hero.sass */
+/* line 142, ../sass/_hero.sass */
 #previous_articles ul #all_articles {
   background: transparent url(/images/icons/read.png) 0 14px no-repeat;
   background-size: 32px 32px;
 }
-/* line 132, ../sass/_hero.sass */
+/* line 145, ../sass/_hero.sass */
 #previous_articles ul #all_articles a {
   padding-left: 40px;
 }
 
-/* line 135, ../sass/_hero.sass */
+/* line 148, ../sass/_hero.sass */
 #sponsors {
   margin: 30px 0;
   padding: 30px 0;
   border-top: 1px dotted #bcbcbc;
   border-bottom: 1px dotted #bcbcbc;
 }
-/* line 140, ../sass/_hero.sass */
+/* line 153, ../sass/_hero.sass */
 #sponsors h2 {
   margin: 0 0 40px 0;
   text-align: center;
 }
-/* line 143, ../sass/_hero.sass */
+/* line 156, ../sass/_hero.sass */
 #sponsors p {
   text-align: center;
   margin-left: 130px;
   margin-right: 130px;
 }
 
-/* line 148, ../sass/_hero.sass */
+/* line 161, ../sass/_hero.sass */
 #about {
   padding: 40px 10px;
   border-bottom: 1px dotted #bcbcbc;
   margin-bottom: 40px;
 }
-/* line 152, ../sass/_hero.sass */
+/* line 165, ../sass/_hero.sass */
 #about h2, #about p {
   text-align: center;
 }
-/* line 154, ../sass/_hero.sass */
+/* line 167, ../sass/_hero.sass */
 #about p {
   margin-left: 130px;
   margin-right: 130px;
 }
 
-/* line 159, ../sass/_hero.sass */
+/* line 172, ../sass/_hero.sass */
 #map h2 {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
-/* line 165, ../sass/_hero.sass */
+/* line 178, ../sass/_hero.sass */
 #where, #when, #party {
   margin-bottom: 50px;
 }
-/* line 167, ../sass/_hero.sass */
+/* line 180, ../sass/_hero.sass */
 #where h4, #when h4, #party h4 {
   margin-top: 20px;
   border-bottom: 1px dotted #e5e5e5;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 172, ../sass/_hero.sass */
+/* line 185, ../sass/_hero.sass */
 #where p, #when p, #party p {
   margin-bottom: 0;
 }
 
-/* line 175, ../sass/_hero.sass */
+/* line 188, ../sass/_hero.sass */
 #speakers_heading {
   border-top: 1px dotted #bcbcbc;
   border-bottom: 1px dotted #bcbcbc;
   text-align: center;
   padding: 40px 0;
 }
-/* line 180, ../sass/_hero.sass */
+/* line 193, ../sass/_hero.sass */
 #speakers_heading h2 {
   margin-bottom: 0;
 }
 
-/* line 184, ../sass/_hero.sass */
+/* line 197, ../sass/_hero.sass */
 #speakers {
   clear: both;
   display: block;
 }
-/* line 187, ../sass/_hero.sass */
+/* line 200, ../sass/_hero.sass */
 #speakers h2, #speakers p {
   text-align: center;
 }
-/* line 190, ../sass/_hero.sass */
+/* line 203, ../sass/_hero.sass */
 #speakers #all_speakers {
   border-top: 1px dotted #bcbcbc;
   overflow: hidden;
@@ -522,18 +545,18 @@ ul li {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 199, ../sass/_hero.sass */
+/* line 212, ../sass/_hero.sass */
 #speakers #all_speakers:hover {
   background: #e5e5e5 url(/images/icons/wedge.png) 651px 28px no-repeat;
   background-size: 7px 12px;
 }
-/* line 202, ../sass/_hero.sass */
+/* line 215, ../sass/_hero.sass */
 #speakers #all_speakers p {
   margin: 0;
   padding: 20px 0;
 }
 
-/* line 206, ../sass/_hero.sass */
+/* line 219, ../sass/_hero.sass */
 #organizers {
   border-top: 1px dotted #bcbcbc;
   clear: both;
@@ -542,51 +565,51 @@ ul li {
   padding-top: 60px;
   margin-bottom: 40px;
 }
-/* line 213, ../sass/_hero.sass */
+/* line 226, ../sass/_hero.sass */
 #organizers h2 {
   text-align: center;
 }
 
-/* line 216, ../sass/_hero.sass */
+/* line 229, ../sass/_hero.sass */
 #footer {
   border-top: 1px dotted #bcbcbc;
   margin-top: 40px;
   padding-top: 60px;
   margin-bottom: 60px;
 }
-/* line 221, ../sass/_hero.sass */
+/* line 234, ../sass/_hero.sass */
 #footer p, #footer a {
   color: #bcbcbc;
   margin-bottom: 0;
   font-size: 18px;
 }
-/* line 225, ../sass/_hero.sass */
+/* line 238, ../sass/_hero.sass */
 #footer a {
   margin-right: 20px;
 }
-/* line 227, ../sass/_hero.sass */
+/* line 240, ../sass/_hero.sass */
 #footer a:hover {
   text-decoration: none;
 }
-/* line 229, ../sass/_hero.sass */
+/* line 242, ../sass/_hero.sass */
 #footer p:last-child {
   margin-bottom: 20px;
 }
-/* line 231, ../sass/_hero.sass */
+/* line 244, ../sass/_hero.sass */
 #footer label {
   font-weight: normal;
 }
-/* line 233, ../sass/_hero.sass */
+/* line 246, ../sass/_hero.sass */
 #footer #foot_twit {
   float: right;
   width: 460px;
 }
-/* line 236, ../sass/_hero.sass */
+/* line 249, ../sass/_hero.sass */
 #footer #mc_embed_signup {
   width: 460px;
 }
 
-/* line 238, ../sass/_hero.sass */
+/* line 251, ../sass/_hero.sass */
 .opaque {
   opacity: 1 !important;
   -webkit-transition: all 1.2s ease-in-out;
