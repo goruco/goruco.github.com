@@ -1,6 +1,11 @@
 desc "Launch preview environment."
 task :preview do
-system("for i in ./_layouts/*.haml; do [ -e $i ] && haml $i ${i%.haml}.html; done & compass watch & jekyll --auto --server")
+  lines = []
+  lines <<
+    "for i in ./_layouts/*.haml; do [ -e $i ] && haml $i ${i%.haml}.html; done"
+  lines << "compass watch"
+  lines << "jekyll serve --watch"
+  system(lines.join(' & '))
 end
 
 desc 'nuke, build and compass'
