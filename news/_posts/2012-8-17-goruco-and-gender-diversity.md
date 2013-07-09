@@ -21,7 +21,7 @@ We decided we could be more open about our numbers, to give other people
 a better view into the specifics of the problem. Below are the statistics for GORUCO 2012--keep in mind
 that we guessed the number of women proposers and attendees based on people’s first names.
 
-<table>
+<table class="data">
 <thead>
   <tr>
     <td></td>

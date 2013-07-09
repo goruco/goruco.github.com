@@ -1098,6 +1098,46 @@ ul li {
   text-decoration: underline;
 }
 
+/* line 1, ../sass/_data.sass */
+table.data {
+  margin-bottom: 29px;
+}
+/* line 3, ../sass/_data.sass */
+table.data td, table.data th {
+  padding: 10px;
+  text-align: center;
+}
+/* line 6, ../sass/_data.sass */
+table.data td {
+  font-family: Verdana;
+}
+/* line 8, ../sass/_data.sass */
+table.data th {
+  font-weight: bold;
+  background: #e5e5e5;
+}
+/* line 13, ../sass/_data.sass */
+table.data thead tr:last-child th {
+  border-bottom: 1px solid black;
+}
+/* line 16, ../sass/_data.sass */
+table.data tbody th {
+  border-right: 1px solid black;
+}
+/* line 18, ../sass/_data.sass */
+table.data .groupend {
+  border-right: 1px solid #bcbcbc;
+}
+/* line 20, ../sass/_data.sass */
+table.data .decimal_align {
+  text-align: right;
+  padding-right: 10px;
+}
+/* line 23, ../sass/_data.sass */
+table.data .decimal_align.wide {
+  padding-right: 4em;
+}
+
 /* line 2, ../sass/custom/_homepage.sass */
 .big h2 {
   font-weight: 300;
@@ -1249,7 +1289,7 @@ ul#agenda li .time {
   font-weight: bold;
 }
 
-/* line 42, ../sass/screen.sass */
+/* line 43, ../sass/screen.sass */
 body {
   font-family: "proxima-nova";
   color: #444444;
@@ -1257,12 +1297,12 @@ body {
   color: #444444;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 49, ../sass/screen.sass */
 a {
   color: #ba262b;
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 ::-webkit-input-placeholder, ::-moz-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
   color: #ba262b;
 }
