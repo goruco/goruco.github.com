@@ -1,6 +1,6 @@
 ## Developing
 
-    $ jekyll --server --auto
+    $ jekyll serve --watch
     $ compass watch
 
 ## Deploy
